@@ -129,7 +129,9 @@ jobs:
                       'User-Agent': 'Munibin-Source-Importer/440',
                   },
               )
-              limit = ((expected_size + 2) // 3) * 4 + 128 * 1024
+              # GitHub wraps base64; escaped newlines in its JSON add wire overhead.
+              # Bound the response separately from the exact decoded size and hashes.
+              limit = ((expected_size + 2) // 3) * 4 * 2 + 128 * 1024
               try:
                   with urllib.request.build_opener(NoRedirect).open(request, timeout=60) as response:
                       payload = response.read(limit + 1)
