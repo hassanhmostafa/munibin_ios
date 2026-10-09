@@ -1,0 +1,16 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.motoonai.twa",
+      "sha256_cert_fingerprints": [
+        "C2:28:C3:08:88:0B:AB:E5:95:D9:AD:DA:7B:78:E7:24:FE:50:6E:C2:CF:F7:46:CB:01:F1:31:37:74:C0:CC:C9",
+        "6F:5F:81:F5:7A:26:0D:15:1D:D4:DC:E6:93:20:39:0A:60:9D:70:FB:9E:A1:73:93:3D:00:F0:F4:D7:BE:CF:D2"
+      ]
+    }
+  }
+]

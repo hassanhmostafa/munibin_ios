@@ -1,0 +1,5510 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-03T13:06:18Z",
+  "backendOrigin": "https://munibin.com",
+  "resourceCount": 611,
+  "totalBytes": 22514669,
+  "resources": [
+    {
+      "path": "/api/audio/adhan/1789050757650--_df4f7563.mp3",
+      "bytes": 2101114,
+      "sha256": "2cf308516cdf122fe30968bf8a55d237ba526523b8cf689b875fe7bcaa5be1e7",
+      "source": "https://munibin.com/api/audio/adhan/1789050757650--_df4f7563.mp3",
+      "required": false,
+      "storageEncoding": "identity",
+      "storedBytes": 2101114
+    },
+    {
+      "path": "/api/quran/navigation",
+      "bytes": 1437345,
+      "sha256": "5f80d5bd1d4d7187b8f04f89f49a5dde151c5f2381c08fc16d8282c82133364b",
+      "source": "https://munibin.com/api/quran/navigation",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 104741
+    },
+    {
+      "path": "/api/quran/qcf4/page/001.json",
+      "bytes": 6045,
+      "sha256": "0f49d439d81f50c28396672a5e39fd28cbe564cd633265d3445b93c3bcbf95e2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 1025
+    },
+    {
+      "path": "/api/quran/qcf4/page/002.json",
+      "bytes": 7092,
+      "sha256": "4f76f3205bd4d6ac0fa587890fe7bd7ca3878aa696aba3b11cb989aed5a53dee",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 1193
+    },
+    {
+      "path": "/api/quran/qcf4/page/003.json",
+      "bytes": 22007,
+      "sha256": "ee371931d343ee36292e8e5a44fc164217e99cf3fe365371a7ced8061e17e029",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2800
+    },
+    {
+      "path": "/api/quran/qcf4/page/004.json",
+      "bytes": 22717,
+      "sha256": "6940acd825e0f8f650ea137a0e6000d45cdd5cacdcd26eef674d44fcdbf7ec67",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2957
+    },
+    {
+      "path": "/api/quran/qcf4/page/005.json",
+      "bytes": 20966,
+      "sha256": "1cfecc6b4411dde0e071860b04da830973aea44a74c6a7e876133c7e1d3a4f1b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2737
+    },
+    {
+      "path": "/api/quran/qcf4/page/006.json",
+      "bytes": 23404,
+      "sha256": "633a6e6549813e37d8bd2e5e5623054651e27b0c1879edcf7e48215bd54e93d8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2992
+    },
+    {
+      "path": "/api/quran/qcf4/page/007.json",
+      "bytes": 22702,
+      "sha256": "17d0c15d57d64dd2bd28e18a06eb0ea678ed79adeabc0cf52718b4ddd3edbfba",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2989
+    },
+    {
+      "path": "/api/quran/qcf4/page/008.json",
+      "bytes": 20808,
+      "sha256": "0f68c2e2b19a18d88fd9bec61503b594f208e3e41195521b8dd62d417a2570f8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2698
+    },
+    {
+      "path": "/api/quran/qcf4/page/009.json",
+      "bytes": 20963,
+      "sha256": "a810bb2b940362af2916d227cddf857edb07037416a728c2a553064fb9b1010c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2824
+    },
+    {
+      "path": "/api/quran/qcf4/page/010.json",
+      "bytes": 22979,
+      "sha256": "a753fd63d1ef3515b790864c55b5034b02eee98e8aff96241f3c1f9e651d45a0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2902
+    },
+    {
+      "path": "/api/quran/qcf4/page/011.json",
+      "bytes": 24090,
+      "sha256": "0bdeb28f7e5038d69e3f7e0d831e0b51f8d73ccb9a6c185d51311e25c17f4830",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3036
+    },
+    {
+      "path": "/api/quran/qcf4/page/012.json",
+      "bytes": 20527,
+      "sha256": "c89aade1c2c40f7f4176e2fa07067a27d88ed1452349686140fb91df57816400",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2637
+    },
+    {
+      "path": "/api/quran/qcf4/page/013.json",
+      "bytes": 19760,
+      "sha256": "da4bfb84a48f8cd331aebc0c93e6012e251316bbeb8b5dca3dba9cd97d0f737e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2614
+    },
+    {
+      "path": "/api/quran/qcf4/page/014.json",
+      "bytes": 20634,
+      "sha256": "aa8d14cd739e50e83c393faf4828e49701e25f685adf59d1ffee688afe318b1e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2641
+    },
+    {
+      "path": "/api/quran/qcf4/page/015.json",
+      "bytes": 21270,
+      "sha256": "e2cbec700a8704bf3f82c890dca8102f9cae1852216cad10937c1fc61434cc72",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2760
+    },
+    {
+      "path": "/api/quran/qcf4/page/016.json",
+      "bytes": 20852,
+      "sha256": "17d9199cf63ee454dbf7e032c1dbeaf2f56caf7c25523927940172acea66bef6",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2649
+    },
+    {
+      "path": "/api/quran/qcf4/page/017.json",
+      "bytes": 23747,
+      "sha256": "46058d2d3c760a95ea86130f3cfdaf48e7b9c92cee60502a21d60e4bf7a10e97",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2993
+    },
+    {
+      "path": "/api/quran/qcf4/page/018.json",
+      "bytes": 22683,
+      "sha256": "59b4383cf33eec020699c4816e298170cb0707a0191d196a62ce44a00369d607",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2869
+    },
+    {
+      "path": "/api/quran/qcf4/page/019.json",
+      "bytes": 25110,
+      "sha256": "0def0473535c5e12f4358b80c391bee823a85193559f45cd0d9a2f3781e1c8a1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3213
+    },
+    {
+      "path": "/api/quran/qcf4/page/020.json",
+      "bytes": 22894,
+      "sha256": "084638b17c12232b4a985cfef48d7c3591da058edc91b3e1f9647a64e58d801a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2907
+    },
+    {
+      "path": "/api/quran/qcf4/page/021.json",
+      "bytes": 22990,
+      "sha256": "567673157e898c3381210f387d250a8374d44e668dbdfd82e82f50844d8b9061",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2858
+    },
+    {
+      "path": "/api/quran/qcf4/page/022.json",
+      "bytes": 22462,
+      "sha256": "cc9245483d748040016e43ea3cb657f34e23766d76046ee9cc36b7304bd90619",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2872
+    },
+    {
+      "path": "/api/quran/qcf4/page/023.json",
+      "bytes": 21249,
+      "sha256": "471f51b119ff61eba0b2017fe62b2054b51ef508bc1cbe6ee4c1de5638e8be36",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2726
+    },
+    {
+      "path": "/api/quran/qcf4/page/024.json",
+      "bytes": 23036,
+      "sha256": "3bdf83b589c137ad8590812228c510814c388a15579638c2b353f854efe2b728",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2926
+    },
+    {
+      "path": "/api/quran/qcf4/page/025.json",
+      "bytes": 23177,
+      "sha256": "569b0a76b816c2a66af878a4c8dbb3d6c48f4ab230d7c5892f28f2c3b748550d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2893
+    },
+    {
+      "path": "/api/quran/qcf4/page/026.json",
+      "bytes": 22786,
+      "sha256": "739bbaa45f865bee7ff178750a7f681ba79c35e52f44f77af6e7208a61b19aeb",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2871
+    },
+    {
+      "path": "/api/quran/qcf4/page/027.json",
+      "bytes": 21846,
+      "sha256": "3ecf0a5fa677f16b97914dfca99e3388959e8d7651955a609784084560de39d0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2838
+    },
+    {
+      "path": "/api/quran/qcf4/page/028.json",
+      "bytes": 20917,
+      "sha256": "212f09db6aad15111e8f3b4bfa4af42b9bcd4ca589a28cb22448fb2726e858b2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2689
+    },
+    {
+      "path": "/api/quran/qcf4/page/029.json",
+      "bytes": 20981,
+      "sha256": "8b661345be2cf4b63c35dd7739a7be4f30ec2a2cf57a3ab2af94dcb397394924",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2705
+    },
+    {
+      "path": "/api/quran/qcf4/page/030.json",
+      "bytes": 26380,
+      "sha256": "60c72baff08a7a5764ebee0df8e5f07637108d7d5b13751a081c059676a153bd",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3246
+    },
+    {
+      "path": "/api/quran/qcf4/page/031.json",
+      "bytes": 19448,
+      "sha256": "5fdafc8f13cdec0a81bb39da17af91b52159f47dab9d8985cd2dcc767b17c2cf",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2505
+    },
+    {
+      "path": "/api/quran/qcf4/page/032.json",
+      "bytes": 21517,
+      "sha256": "1b5790cca35d9eda0740f5d7bf408f3c2fcc7ddbd76d9c4dda83e4b012776cc3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2826
+    },
+    {
+      "path": "/api/quran/qcf4/page/033.json",
+      "bytes": 23923,
+      "sha256": "fb000c97bb013e6076e9d31aa083841d5b7303c1f94fcb408f617c5ca842d6ea",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3049
+    },
+    {
+      "path": "/api/quran/qcf4/page/034.json",
+      "bytes": 21225,
+      "sha256": "069bb748fae71acf1bcb3595ef50c43256e3b7bdc0f7baffb20e28a32557ec2d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2736
+    },
+    {
+      "path": "/api/quran/qcf4/page/035.json",
+      "bytes": 21120,
+      "sha256": "efcc43103adaf7c43ddcacb5d0079f8f608599c47b1794891e9780882b0bc4dc",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2757
+    },
+    {
+      "path": "/api/quran/qcf4/page/036.json",
+      "bytes": 25483,
+      "sha256": "979a3b3c51349ee3e35d179d2797482c6e921e5fffd87678e78e353dafe79bff",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3188
+    },
+    {
+      "path": "/api/quran/qcf4/page/037.json",
+      "bytes": 24099,
+      "sha256": "d1872e785726626e6133e6a9b805a88e0005847935d9a7716455e9a835c3fde4",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3019
+    },
+    {
+      "path": "/api/quran/qcf4/page/038.json",
+      "bytes": 22359,
+      "sha256": "be10a8762878fd58877fc0ed7500a958949ce63930e41ea20a68072ba8ee0bb2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2785
+    },
+    {
+      "path": "/api/quran/qcf4/page/039.json",
+      "bytes": 20432,
+      "sha256": "57db321f710080b90ea9edcca74de0a675254186a95190eed57053980942cb51",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2699
+    },
+    {
+      "path": "/api/quran/qcf4/page/040.json",
+      "bytes": 21183,
+      "sha256": "e764140e8194b58864fd13e9076dffe16c058de846d68ededb7dd0cf133f88ed",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2633
+    },
+    {
+      "path": "/api/quran/qcf4/page/041.json",
+      "bytes": 18926,
+      "sha256": "94971d7f92f0f2c0222338fabe3e62747c629dcef5b131e338503a0f23a19295",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2447
+    },
+    {
+      "path": "/api/quran/qcf4/page/042.json",
+      "bytes": 24750,
+      "sha256": "ee49a6fc541fe736a0d1f3ebc7c400274771ef3c6b0df2ad841edae275853e96",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3114
+    },
+    {
+      "path": "/api/quran/qcf4/page/043.json",
+      "bytes": 22355,
+      "sha256": "1b416630cceb51cd98759f7b4f9e804acfe73145386f7cda0a6b63006819c469",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2783
+    },
+    {
+      "path": "/api/quran/qcf4/page/044.json",
+      "bytes": 23150,
+      "sha256": "851b8176c5ac084982574dd0bcc51746da3338ad816134decb5fe398182f0391",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2935
+    },
+    {
+      "path": "/api/quran/qcf4/page/045.json",
+      "bytes": 20574,
+      "sha256": "b3356a58cf7a5dd5c63199676e66fbf761ae5a2d3506ed993fca81923dcf8f86",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2720
+    },
+    {
+      "path": "/api/quran/qcf4/page/046.json",
+      "bytes": 19035,
+      "sha256": "a7bb8737c14bc909b9b319ff70c58175d4c9ce8c6cb3120c1e90b7b79bf49e86",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2497
+    },
+    {
+      "path": "/api/quran/qcf4/page/047.json",
+      "bytes": 22990,
+      "sha256": "c7be5091deadae82388d4539a3d93ebf90debdff70f1150021b647b5de71a350",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2903
+    },
+    {
+      "path": "/api/quran/qcf4/page/048.json",
+      "bytes": 21328,
+      "sha256": "e0d2c0bf9f60ce1642bc94d2a3d40f99dfcb6795ceaf1eed80d6797f9302c2fb",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2699
+    },
+    {
+      "path": "/api/quran/qcf4/page/049.json",
+      "bytes": 23024,
+      "sha256": "8405419bebc0c6ef86e85d480143e72aa3ebe7648eb3df330f2d57794e3ac65e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2956
+    },
+    {
+      "path": "/api/quran/qcf4/page/050.json",
+      "bytes": 23479,
+      "sha256": "c4fa1f191c5adc61800e6788d5bd5fc61a1d7cd3de05aad60e45a82171b51ecb",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3051
+    },
+    {
+      "path": "/api/quran/qcf4/page/051.json",
+      "bytes": 20177,
+      "sha256": "f6968b87973e8bd933d18eef9edc7729d305e08b8326499ba2f558e10d05dad8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2739
+    },
+    {
+      "path": "/api/quran/qcf4/page/052.json",
+      "bytes": 20181,
+      "sha256": "9d19a5948025e1bd5002027c4843279d1326743b4e6e868136cf0467ae3cfea2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2603
+    },
+    {
+      "path": "/api/quran/qcf4/page/053.json",
+      "bytes": 24467,
+      "sha256": "fb9037aff2fdf1c71a51a1f16502ee951c28cca4eb572622c6122192ebf2eba5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3027
+    },
+    {
+      "path": "/api/quran/qcf4/page/054.json",
+      "bytes": 24863,
+      "sha256": "faa95c18513e1d5b9042a01841cc3c97292fbd78552b849bed14bebb21be458c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3140
+    },
+    {
+      "path": "/api/quran/qcf4/page/055.json",
+      "bytes": 22517,
+      "sha256": "8ee5a646d116ddaa7b22a357ce3b5057c00290d0066a07272c1fc8d505da6b77",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2908
+    },
+    {
+      "path": "/api/quran/qcf4/page/056.json",
+      "bytes": 21906,
+      "sha256": "d5d0e92b25c358704517b2ce300ae365d2ad216b337e0874f6f255e524005e86",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2878
+    },
+    {
+      "path": "/api/quran/qcf4/page/057.json",
+      "bytes": 21441,
+      "sha256": "17c15a80b22e26b837b1919be7612d30c59d9e66801bf2f312c9cd920c3392a8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2785
+    },
+    {
+      "path": "/api/quran/qcf4/page/058.json",
+      "bytes": 23145,
+      "sha256": "8645f9399561af9b2f530a7f91f976a5b39088e8802f01eeca53f56918999cf0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2889
+    },
+    {
+      "path": "/api/quran/qcf4/page/059.json",
+      "bytes": 23758,
+      "sha256": "04ee8ab02a5f10d2477714151d18baf0178bd16efcdda4e312c2cf8dc298223d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3010
+    },
+    {
+      "path": "/api/quran/qcf4/page/060.json",
+      "bytes": 21166,
+      "sha256": "86a46fc6a2695e6ed554df94a7d3c0ab7e0771590e9b64b9c0d6705f075c01f5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2709
+    },
+    {
+      "path": "/api/quran/qcf4/page/061.json",
+      "bytes": 21842,
+      "sha256": "9b0a58d3996395bc3df67befebdf3a4da435e4f1834ee759c52d67c175b9bcbc",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2796
+    },
+    {
+      "path": "/api/quran/qcf4/page/062.json",
+      "bytes": 24333,
+      "sha256": "e1cdb773d3de59cf745926a17f9f2390b57001ebb1cb13952c99273bdc616c6b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3098
+    },
+    {
+      "path": "/api/quran/qcf4/page/063.json",
+      "bytes": 22525,
+      "sha256": "689e20d1664d7a46177d8d0c8ae6a909ed7c465d4f1934aff365c7bd4a4362e8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2886
+    },
+    {
+      "path": "/api/quran/qcf4/page/064.json",
+      "bytes": 20745,
+      "sha256": "f0d3441f845251dcda7a59d60fd9f3e415eba7a0858e2206cd28222325428dae",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2697
+    },
+    {
+      "path": "/api/quran/qcf4/page/065.json",
+      "bytes": 22308,
+      "sha256": "b7fe8ee8506a6d8d6e8899167a4d23114837a28c0ba58dc09c0f0cd1d3b5a1fa",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2928
+    },
+    {
+      "path": "/api/quran/qcf4/page/066.json",
+      "bytes": 22437,
+      "sha256": "478af3d744b8c556816ffa973eb47748e9d637f267d0f82e5359dd8d0508b058",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2912
+    },
+    {
+      "path": "/api/quran/qcf4/page/067.json",
+      "bytes": 20235,
+      "sha256": "b98209b9f82ec5f3fa6a31147ee19e3e237ad687111985206b7eaec23db947bf",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2674
+    },
+    {
+      "path": "/api/quran/qcf4/page/068.json",
+      "bytes": 22862,
+      "sha256": "c14b8bce48cb505d8eb0f821339dd3ca05087e0a63599a34281a999f3ed824dc",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2895
+    },
+    {
+      "path": "/api/quran/qcf4/page/069.json",
+      "bytes": 17780,
+      "sha256": "3dbdf354e78fc815d3918f7645f17bbe9567fd5f5076becab7a1e3544e4716da",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2378
+    },
+    {
+      "path": "/api/quran/qcf4/page/070.json",
+      "bytes": 24438,
+      "sha256": "cfb7e92f25b75885b45300f8700a3deaca69af7f5b08d73cad7e9721ee46a5bf",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3048
+    },
+    {
+      "path": "/api/quran/qcf4/page/071.json",
+      "bytes": 24339,
+      "sha256": "1308b53704281747c484f564b5aadf2415ce445b0f6e30b89770127228c08498",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3121
+    },
+    {
+      "path": "/api/quran/qcf4/page/072.json",
+      "bytes": 23242,
+      "sha256": "d644791123d295998641f07bca2f7eb3396747b5f96d5dbd05f91c2686ac4ed3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2984
+    },
+    {
+      "path": "/api/quran/qcf4/page/073.json",
+      "bytes": 24483,
+      "sha256": "99a5afb7b08dc6d34071c77a581f8c5d9f53bc158e8563b4ecbf6fc3b7e574c4",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3064
+    },
+    {
+      "path": "/api/quran/qcf4/page/074.json",
+      "bytes": 20507,
+      "sha256": "29d1245424e8c98fe96c3c9e9ff1c874185bb4fce2045edb64713bbaaca3baaf",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2703
+    },
+    {
+      "path": "/api/quran/qcf4/page/075.json",
+      "bytes": 22143,
+      "sha256": "50aa6e30a72ebedaa81d3f63e0d3036ea243bd105263ae9a12e8eae5d7d9ff09",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2870
+    },
+    {
+      "path": "/api/quran/qcf4/page/076.json",
+      "bytes": 20346,
+      "sha256": "23cc04c7e507c83e07d7f854097997cdeeab0c921796020b738e483d818b6cde",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2637
+    },
+    {
+      "path": "/api/quran/qcf4/page/077.json",
+      "bytes": 23964,
+      "sha256": "2dbb6366461af9984b75494b9804b7c4285dcca828e8f47bed6dfd95315d81d6",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3127
+    },
+    {
+      "path": "/api/quran/qcf4/page/078.json",
+      "bytes": 22103,
+      "sha256": "486c1428c28f8837b7718bd438a92c12a3d6f9796b571f09a7beb9f0c4618914",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2828
+    },
+    {
+      "path": "/api/quran/qcf4/page/079.json",
+      "bytes": 19849,
+      "sha256": "bba73b34b93d0ffbe2b093ee720ed90b73a09e008a9086c1a991d385187afc2e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2466
+    },
+    {
+      "path": "/api/quran/qcf4/page/080.json",
+      "bytes": 19550,
+      "sha256": "906d8fa853cc7f84db5872133a48a4ef96846a3a2923b25311a71be96d7135cd",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2552
+    },
+    {
+      "path": "/api/quran/qcf4/page/081.json",
+      "bytes": 16959,
+      "sha256": "2e62b4c156a31801484414d0fa5a3859e5dfb82602b8abbf7c2b16043302fd9b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2230
+    },
+    {
+      "path": "/api/quran/qcf4/page/082.json",
+      "bytes": 19410,
+      "sha256": "a8de80b73fb822cff2d7301c9edddc09d58adf9756589f67c581f9f18ec18a31",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2511
+    },
+    {
+      "path": "/api/quran/qcf4/page/083.json",
+      "bytes": 19854,
+      "sha256": "229e20ca5b9ba8baede0e71cdafe1e12c2412378b0d3553d99814efc386eebab",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2601
+    },
+    {
+      "path": "/api/quran/qcf4/page/084.json",
+      "bytes": 18745,
+      "sha256": "1a5e1f71cb453b1c6250a916b14a06d9957b4c73e37b72afc08c542d3ff6bb27",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2508
+    },
+    {
+      "path": "/api/quran/qcf4/page/085.json",
+      "bytes": 23119,
+      "sha256": "05b1e4d6e5d29785859579c40ef8675cbf5702d0895f880ed233c8dc05758669",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2971
+    },
+    {
+      "path": "/api/quran/qcf4/page/086.json",
+      "bytes": 23639,
+      "sha256": "0d056eb2cacb22b473662f3ca19aedb96705e75ec5bdbd70bfb7ff0c303a9f03",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2973
+    },
+    {
+      "path": "/api/quran/qcf4/page/087.json",
+      "bytes": 24635,
+      "sha256": "2572cfa256c46de68604eee4692516b4b74ceca40bdef6859a87ad45c251ea4d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3113
+    },
+    {
+      "path": "/api/quran/qcf4/page/088.json",
+      "bytes": 20276,
+      "sha256": "aa8e837493a77a4dbdd0ec24fb18fcdd61c89395c26a2f1029736672b00e21ce",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2566
+    },
+    {
+      "path": "/api/quran/qcf4/page/089.json",
+      "bytes": 22188,
+      "sha256": "0cebcd080b08f06a34f80c2997f2a57c6bec5d51cf89bd75cd027e6c4658b240",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2897
+    },
+    {
+      "path": "/api/quran/qcf4/page/090.json",
+      "bytes": 25635,
+      "sha256": "a4deb58ad309e26c93d8b2ce930ded63f11a21cb724dd34523e171c80ea029c7",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3163
+    },
+    {
+      "path": "/api/quran/qcf4/page/091.json",
+      "bytes": 23445,
+      "sha256": "2df256ff49dcff8cb822be7e74f8842e298e0da5db0bbc3b75921e6f8f016112",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2963
+    },
+    {
+      "path": "/api/quran/qcf4/page/092.json",
+      "bytes": 23033,
+      "sha256": "5c273e159d507a422aa728b9ed4ceed0f0f5612af61f194d229f90e6f0db9882",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2897
+    },
+    {
+      "path": "/api/quran/qcf4/page/093.json",
+      "bytes": 19257,
+      "sha256": "2f2e2ac81d7044319d3b3b6b46a6ce4272a58606d1a31f70da3d11f4f6447a58",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2432
+    },
+    {
+      "path": "/api/quran/qcf4/page/094.json",
+      "bytes": 24781,
+      "sha256": "9cdb0d303d1750f6d92bc54723daebdb6c695141333f8880b3b5781b876cd8ab",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3105
+    },
+    {
+      "path": "/api/quran/qcf4/page/095.json",
+      "bytes": 20329,
+      "sha256": "c443698b4b28b0406bc34957fd849dc5e20586d447542c62485eb7cf6e555dcd",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2573
+    },
+    {
+      "path": "/api/quran/qcf4/page/096.json",
+      "bytes": 22534,
+      "sha256": "effaa03739a9f4c53743dc928e92333edd4688ced9f0bcaec34e9686ece0acf6",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2790
+    },
+    {
+      "path": "/api/quran/qcf4/page/097.json",
+      "bytes": 21021,
+      "sha256": "2a80f23e2d180ceaaaed2104ee151726f8006187f224ff8886b9428a21500e9d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2716
+    },
+    {
+      "path": "/api/quran/qcf4/page/098.json",
+      "bytes": 21508,
+      "sha256": "46a2d23b3ab6122705e1c7484635038c0b2a7632a13664623071e0269048ef58",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2736
+    },
+    {
+      "path": "/api/quran/qcf4/page/099.json",
+      "bytes": 22318,
+      "sha256": "dcc4e9abf38cd4a41b27883b92a877236bf2d1683d5136e9069e723cdbb121b8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2824
+    },
+    {
+      "path": "/api/quran/qcf4/page/100.json",
+      "bytes": 24019,
+      "sha256": "bca31aab80d8e283a14919eda052cd99d0e90d85cbb5c2cad697a4a943173e7d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2975
+    },
+    {
+      "path": "/api/quran/qcf4/page/101.json",
+      "bytes": 22395,
+      "sha256": "5b10b343afd59d846a9c35b3a7e9e186a43691ab089504eda0c1e9d8535c2825",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2739
+    },
+    {
+      "path": "/api/quran/qcf4/page/102.json",
+      "bytes": 22982,
+      "sha256": "f82488e6d22119695844a10eff2101cbdf100ec04f246658226aa68f7f3efd34",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2925
+    },
+    {
+      "path": "/api/quran/qcf4/page/103.json",
+      "bytes": 24213,
+      "sha256": "16e9acfba6bbee757e41992f9d979e9b37daa8c61d3b864d56a04d82712b40b6",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3074
+    },
+    {
+      "path": "/api/quran/qcf4/page/104.json",
+      "bytes": 22039,
+      "sha256": "7c852497fbc79be528975ade1c30e0cdda6a126056224f6446ab00ff8d082554",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2810
+    },
+    {
+      "path": "/api/quran/qcf4/page/105.json",
+      "bytes": 21315,
+      "sha256": "8761f5c4e36eb4de7a0f95b51b6307c23a82fd3f4c2c7dd3240fcdd10810be80",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2717
+    },
+    {
+      "path": "/api/quran/qcf4/page/106.json",
+      "bytes": 21671,
+      "sha256": "0c57f65a4077bb2418999f7121b6c95adef3a0d185388a32c86184ac94622a1b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2916
+    },
+    {
+      "path": "/api/quran/qcf4/page/107.json",
+      "bytes": 22828,
+      "sha256": "db53f98d70d9766d8dd1721df3b3244b7eb8131d0f5f4200cd21172590116fcf",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2920
+    },
+    {
+      "path": "/api/quran/qcf4/page/108.json",
+      "bytes": 19856,
+      "sha256": "69725fdb1b93eaff145bbb431d348dedd37569b72b2c144ddfc7ad0be5a57120",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2578
+    },
+    {
+      "path": "/api/quran/qcf4/page/109.json",
+      "bytes": 18722,
+      "sha256": "dff2c8aa6a0580130ea371ac032325787927939c29108b2f2794d1167cc0d05b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2557
+    },
+    {
+      "path": "/api/quran/qcf4/page/110.json",
+      "bytes": 18472,
+      "sha256": "df274511d9afc8fb5b6a754ace29acb0e89c28b2f5547294a628838b4c724092",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2408
+    },
+    {
+      "path": "/api/quran/qcf4/page/111.json",
+      "bytes": 22723,
+      "sha256": "2396580f06096329a727b2dfb6b35f51696a068dfee19670bd5d9ab66b32222d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2924
+    },
+    {
+      "path": "/api/quran/qcf4/page/112.json",
+      "bytes": 22773,
+      "sha256": "c738b91b5ce5d74409249873d2b5a8ebbf3e78de992c086f3bd45b2c54c8dd4b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2923
+    },
+    {
+      "path": "/api/quran/qcf4/page/113.json",
+      "bytes": 21176,
+      "sha256": "5977c101f30db3833876cd80672846a219a03790c5c05db9327e09784e4780c2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2682
+    },
+    {
+      "path": "/api/quran/qcf4/page/114.json",
+      "bytes": 21519,
+      "sha256": "cb66bf694f995cdfbe35a846d131ba834966c7480bd773590897b5c60a039832",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2819
+    },
+    {
+      "path": "/api/quran/qcf4/page/115.json",
+      "bytes": 19473,
+      "sha256": "c9100391eeac959b64ff192af4c578ea9564d1f1f345c1a2e37abdf9d59987cb",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2535
+    },
+    {
+      "path": "/api/quran/qcf4/page/116.json",
+      "bytes": 23246,
+      "sha256": "1c6789975127485f8c81236027c83dfbcf4b2164086ed19e1f2a0850700f770c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2921
+    },
+    {
+      "path": "/api/quran/qcf4/page/117.json",
+      "bytes": 25900,
+      "sha256": "d6072f84083163e9973f87623ffee09a1a0508924af8d13ccf6b8d4c1feb0756",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3194
+    },
+    {
+      "path": "/api/quran/qcf4/page/118.json",
+      "bytes": 25524,
+      "sha256": "2765cec714890ef9f08910478bebefd13cceb46d13ba7bcc6f3f31ab37ce7d75",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3293
+    },
+    {
+      "path": "/api/quran/qcf4/page/119.json",
+      "bytes": 22437,
+      "sha256": "b4d160004d0ebf8610b89cb8e7f8a50a9d6610cfa11d7834c6c2bdb058fbc332",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2907
+    },
+    {
+      "path": "/api/quran/qcf4/page/120.json",
+      "bytes": 25458,
+      "sha256": "ffd331f24bd71778f4623b3aee980d4e6452c6b2d6e4b1167666a98369aee13b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3174
+    },
+    {
+      "path": "/api/quran/qcf4/page/121.json",
+      "bytes": 19013,
+      "sha256": "e25a9db0c66433946dee288bab212841bfde0569e2e05983516b3f25b066b824",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2518
+    },
+    {
+      "path": "/api/quran/qcf4/page/122.json",
+      "bytes": 22020,
+      "sha256": "edf5d12472f17e46d48c18f53d441fc4aa72b4c5289ce631a9ca5bbfcf128973",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2868
+    },
+    {
+      "path": "/api/quran/qcf4/page/123.json",
+      "bytes": 22318,
+      "sha256": "be0292b28bc2af17fbb2340cca3185655f714ec9ddd181787eb98f41f9b6d148",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2871
+    },
+    {
+      "path": "/api/quran/qcf4/page/124.json",
+      "bytes": 23990,
+      "sha256": "77c2f283517e04eb6234681dc0cc796a531ec3a603331441363c3a4c91dfbfcd",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3021
+    },
+    {
+      "path": "/api/quran/qcf4/page/125.json",
+      "bytes": 24362,
+      "sha256": "dc3a702068d51b0bcfa7d55c867ffafb44d2f8932ccccbfe0b4414dca34023f2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3036
+    },
+    {
+      "path": "/api/quran/qcf4/page/126.json",
+      "bytes": 22066,
+      "sha256": "6331a83605a67f7e7bbc067e67258d1e06707a899be02a8768c431bb34b42b03",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2883
+    },
+    {
+      "path": "/api/quran/qcf4/page/127.json",
+      "bytes": 27038,
+      "sha256": "6593ed4807a7204a37501af7e6f34969f35979558131f7bcfd7f87202f9482df",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3299
+    },
+    {
+      "path": "/api/quran/qcf4/page/128.json",
+      "bytes": 21797,
+      "sha256": "c7c595637a11afea69b04fe0f1563cf767cc4527fe8cde5907721951164b031f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2844
+    },
+    {
+      "path": "/api/quran/qcf4/page/129.json",
+      "bytes": 23266,
+      "sha256": "6766e9274e20028baf1d59e3ba1b10d3490ef7f8cd23605a8ab3d5a45913cb64",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2981
+    },
+    {
+      "path": "/api/quran/qcf4/page/130.json",
+      "bytes": 27147,
+      "sha256": "687c14b21a17bedbf590cc6c3d0a492f43849fae5e5c806ace8aa4a898f29fce",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3426
+    },
+    {
+      "path": "/api/quran/qcf4/page/131.json",
+      "bytes": 25385,
+      "sha256": "e7ccb8b75b2a2189391de1047b75edfb0b5dd8204875e4779ab2a04e31be1e59",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3231
+    },
+    {
+      "path": "/api/quran/qcf4/page/132.json",
+      "bytes": 24497,
+      "sha256": "3d566b5f46660fc5e4a6a2d98ce9a2ac2906f7af891e64bfb0c82bb959e9ec3d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3155
+    },
+    {
+      "path": "/api/quran/qcf4/page/133.json",
+      "bytes": 24038,
+      "sha256": "2bf354addddaa74ba69f60cf9f26eb607fcb8e123e8bd57cabb7d6d4348f04f0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3051
+    },
+    {
+      "path": "/api/quran/qcf4/page/134.json",
+      "bytes": 23519,
+      "sha256": "96ea6632e1b00205a14cceb6fac96fbca71d5e3c13de6a715f0966f2975a5e70",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2966
+    },
+    {
+      "path": "/api/quran/qcf4/page/135.json",
+      "bytes": 24691,
+      "sha256": "299754891ecc0cd5b8becd1b8013c345215fd05401c459eae5502b4e2ccaef6d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3170
+    },
+    {
+      "path": "/api/quran/qcf4/page/136.json",
+      "bytes": 21838,
+      "sha256": "1bfdde5ee64fbd82982f5709504ef1881a5f8a3cf0ff5c53c9cc8ed33747029e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2820
+    },
+    {
+      "path": "/api/quran/qcf4/page/137.json",
+      "bytes": 23036,
+      "sha256": "4330b00ce35f06d016148d2153b91ffb4560506b7570d7b683ae29e7b646144d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2897
+    },
+    {
+      "path": "/api/quran/qcf4/page/138.json",
+      "bytes": 21210,
+      "sha256": "bcd14e08bcf1d9684bbc74bac24eb19c69cb8f85ec6de6567a0794fd5f2bd9be",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2827
+    },
+    {
+      "path": "/api/quran/qcf4/page/139.json",
+      "bytes": 24329,
+      "sha256": "7b0b8813837ff0390cc78e8d0920ffba2b9b6eb422dfb691502d30322e7fe39a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3121
+    },
+    {
+      "path": "/api/quran/qcf4/page/140.json",
+      "bytes": 23572,
+      "sha256": "fde5dd7a313cdd4429e4328eb4723ecbf757e89d5455152adaa03464aa23457f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3052
+    },
+    {
+      "path": "/api/quran/qcf4/page/141.json",
+      "bytes": 23452,
+      "sha256": "e09a1577ef38b5f7f3ad270af743fc28b83cce4c5d9d9f08ed68b81cbbef21b8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3024
+    },
+    {
+      "path": "/api/quran/qcf4/page/142.json",
+      "bytes": 22984,
+      "sha256": "64cb7b62eccf0ebe755e9483e7cb6c56b61f3663b37619644e7ae672801b7704",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2945
+    },
+    {
+      "path": "/api/quran/qcf4/page/143.json",
+      "bytes": 22543,
+      "sha256": "c5d85d3f4f22c89c6b9c8ff2e7a2b8faf8299a68fc0217c7bf4e1c68606ed079",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2934
+    },
+    {
+      "path": "/api/quran/qcf4/page/144.json",
+      "bytes": 20617,
+      "sha256": "260b373cf76128d47fd1f8dea42e74b9d27f95e55b8e27e38854910bfe8a2452",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2690
+    },
+    {
+      "path": "/api/quran/qcf4/page/145.json",
+      "bytes": 19882,
+      "sha256": "d06e12a9c641a425c9466361c9f7548de61a9808d4056126711e29f719fb327a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2596
+    },
+    {
+      "path": "/api/quran/qcf4/page/146.json",
+      "bytes": 20174,
+      "sha256": "e357e531c184960ff45d0727655dad1fc536f7e69237e34108897104d483df5f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2644
+    },
+    {
+      "path": "/api/quran/qcf4/page/147.json",
+      "bytes": 22166,
+      "sha256": "7639b71c24bfb34cf4bfde3f3e87ee750f281e935ab0e424b8d2f0528a6ed0a0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2806
+    },
+    {
+      "path": "/api/quran/qcf4/page/148.json",
+      "bytes": 22052,
+      "sha256": "687304667799759e87243b9e8cc75f2093e2c2fa41d9d3b0b9c8b6d4c104dde1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2835
+    },
+    {
+      "path": "/api/quran/qcf4/page/149.json",
+      "bytes": 21934,
+      "sha256": "d2e01189aa3ee8fd3ad46b23e3c88331d03cd5efb20b5f38fc0e8853a0c45b1f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2832
+    },
+    {
+      "path": "/api/quran/qcf4/page/150.json",
+      "bytes": 26704,
+      "sha256": "eb38cb98cbf3d400520a8dd7d203682fa2519b6ecbb89518d681f3ae8bf36e3c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3322
+    },
+    {
+      "path": "/api/quran/qcf4/page/151.json",
+      "bytes": 20078,
+      "sha256": "e46be3c441aa169120ba9d0cf79b3be1f6eeb82e2578ae5f1ac2b38a5b5c7010",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2725
+    },
+    {
+      "path": "/api/quran/qcf4/page/152.json",
+      "bytes": 25823,
+      "sha256": "8b7162911241473fba705ce6a3bc7d6e2885a1169a5eb25aa941fabc1fc5b3c3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3227
+    },
+    {
+      "path": "/api/quran/qcf4/page/153.json",
+      "bytes": 23392,
+      "sha256": "19a6bda2d0635aac792a74b0f85f2a06ee7ab4b8c56505e39115cc100dc2a5f5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3019
+    },
+    {
+      "path": "/api/quran/qcf4/page/154.json",
+      "bytes": 25410,
+      "sha256": "4cabe141941b6cc196dd458fd53cf1b7174afe3c70cdc436bb6ab0c724d4b710",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3236
+    },
+    {
+      "path": "/api/quran/qcf4/page/155.json",
+      "bytes": 23659,
+      "sha256": "962d5d7235bbf807d9b86fe4ace2638fb79d3de44c7cd691e3b230dec641d306",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3026
+    },
+    {
+      "path": "/api/quran/qcf4/page/156.json",
+      "bytes": 24044,
+      "sha256": "84d7409dca960d4119aa6ff92104b57ec1dcfedfd8697260d669330ca6625a48",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3037
+    },
+    {
+      "path": "/api/quran/qcf4/page/157.json",
+      "bytes": 22693,
+      "sha256": "70886046d46ba77c4a5458849835818cae45fe6640ea194c15cdbb658b989d23",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2978
+    },
+    {
+      "path": "/api/quran/qcf4/page/158.json",
+      "bytes": 23496,
+      "sha256": "8cc477fa2533ee3d0df7a8da57cfee01d9cd732275cceb0a1d9a42c77b05c9d5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2949
+    },
+    {
+      "path": "/api/quran/qcf4/page/159.json",
+      "bytes": 21248,
+      "sha256": "1770fbda603bf160266ea361196a94a7c110224f4214aa76fcfb3616a63a795e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2809
+    },
+    {
+      "path": "/api/quran/qcf4/page/160.json",
+      "bytes": 20243,
+      "sha256": "462086e41bec9f0c33f801647d196b5b38e5079bd15d3ae4111bf4b6737a1fee",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2619
+    },
+    {
+      "path": "/api/quran/qcf4/page/161.json",
+      "bytes": 18864,
+      "sha256": "d0fa2195191e3ec28ea743218a07dae7a85250947fdbf7db95751f7dc8a01ee2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2523
+    },
+    {
+      "path": "/api/quran/qcf4/page/162.json",
+      "bytes": 24447,
+      "sha256": "c21e51e3322086ce9209f7423e304ff021ca0badb226918b3c5c296555ea1906",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3085
+    },
+    {
+      "path": "/api/quran/qcf4/page/163.json",
+      "bytes": 21463,
+      "sha256": "ca970c22655d02292a6fb8cd1ff02c7add6c1ebd34aa615b76f8b43bc68440af",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2761
+    },
+    {
+      "path": "/api/quran/qcf4/page/164.json",
+      "bytes": 23838,
+      "sha256": "50efd00bce1028e5750339ed6cd7138ba8cdafa41dcf65968869a4cfc543ca22",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3020
+    },
+    {
+      "path": "/api/quran/qcf4/page/165.json",
+      "bytes": 22226,
+      "sha256": "e16f516919881b479c9c2f358896861a7fa806dd3f9a059b0ce21b8850fb6f22",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2887
+    },
+    {
+      "path": "/api/quran/qcf4/page/166.json",
+      "bytes": 21167,
+      "sha256": "b021813d469e0557bdadfaaefecc80be6af00acd3f9aec181537b074c9653343",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2747
+    },
+    {
+      "path": "/api/quran/qcf4/page/167.json",
+      "bytes": 21704,
+      "sha256": "b14386b2730586b067aadaa28d103fe2d759d678273deb0150ecf8e22acee45e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2794
+    },
+    {
+      "path": "/api/quran/qcf4/page/168.json",
+      "bytes": 21408,
+      "sha256": "ecf85a5d1aef11b178277daf8dfaf8dae5e47e939218d94db5dbfc868ca02654",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2756
+    },
+    {
+      "path": "/api/quran/qcf4/page/169.json",
+      "bytes": 23365,
+      "sha256": "b60449b936fd218de8c8a68eb640f0eb12507b071456b892ce56fc790848c9a6",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2978
+    },
+    {
+      "path": "/api/quran/qcf4/page/170.json",
+      "bytes": 19634,
+      "sha256": "e4f4c50025fe6a3e81f8436a5cd0ccb2076c41c6bc01beb66a2b8bdd512972f2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2602
+    },
+    {
+      "path": "/api/quran/qcf4/page/171.json",
+      "bytes": 18579,
+      "sha256": "72309a0bd29eb53aa240098001f85538b2021f4b32f95de986048168cc4f8d75",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2457
+    },
+    {
+      "path": "/api/quran/qcf4/page/172.json",
+      "bytes": 22918,
+      "sha256": "6b647adc9a65a295328bdb9c9b739b7c82ff4d8abdd9268fda9065275f1421bc",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2957
+    },
+    {
+      "path": "/api/quran/qcf4/page/173.json",
+      "bytes": 22578,
+      "sha256": "381cb8da00b2a148bc1806c5c368340c2063e39c89948b95cf775285b2b93056",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2924
+    },
+    {
+      "path": "/api/quran/qcf4/page/174.json",
+      "bytes": 25249,
+      "sha256": "f23e340ee83be22271ebe17acc6955acf8b0c8011e9e862dbe4eb8300b815cd9",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3231
+    },
+    {
+      "path": "/api/quran/qcf4/page/175.json",
+      "bytes": 23722,
+      "sha256": "92bcf939b55da2e659e871b556ee0452011a6120716976a59e98cadc97220aeb",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2994
+    },
+    {
+      "path": "/api/quran/qcf4/page/176.json",
+      "bytes": 22606,
+      "sha256": "002b7947a044eabe9499a93ad94bb714c63b851e034e5fc885f708cc20610a22",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2932
+    },
+    {
+      "path": "/api/quran/qcf4/page/177.json",
+      "bytes": 19045,
+      "sha256": "290cd17c531addf37eab44196edfb3d2a7150655a6952be4da059cc0c791084c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2590
+    },
+    {
+      "path": "/api/quran/qcf4/page/178.json",
+      "bytes": 21737,
+      "sha256": "6b8b3d774667ad6d9cb5d2fed50755473ad171156677657891fabd12e879e4ee",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2829
+    },
+    {
+      "path": "/api/quran/qcf4/page/179.json",
+      "bytes": 22035,
+      "sha256": "9dabe5213603de49b3c5cfff71fb53360c87644594eb8a7d213d9ecd1671efcc",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2787
+    },
+    {
+      "path": "/api/quran/qcf4/page/180.json",
+      "bytes": 21459,
+      "sha256": "959e08089b8752c64a6ad2b6f2276901182849e3621a05ab5750fea07e6518c4",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2750
+    },
+    {
+      "path": "/api/quran/qcf4/page/181.json",
+      "bytes": 20124,
+      "sha256": "09ea17b4048f396ff09def16b53359a8c8b852d5e5c60a2e6e8fd1133e4ddce1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2586
+    },
+    {
+      "path": "/api/quran/qcf4/page/182.json",
+      "bytes": 20672,
+      "sha256": "789d43b8e04078033d4aa8fc48ca88b1afa3ad4f78b1819f798cb787aa95ae7e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2668
+    },
+    {
+      "path": "/api/quran/qcf4/page/183.json",
+      "bytes": 21413,
+      "sha256": "ad8c6005c0be4e53440f0ed77852a97e914c34de994cddea5aabc56e38dcb7bd",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2808
+    },
+    {
+      "path": "/api/quran/qcf4/page/184.json",
+      "bytes": 23555,
+      "sha256": "82508594295bfd4077aa5cbc85961c96a5d53b99c8f3b4d6fa0d7c2e63ba507e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3016
+    },
+    {
+      "path": "/api/quran/qcf4/page/185.json",
+      "bytes": 23121,
+      "sha256": "0d2e5d44684f786b11b6dd7b630413ffa0c72058e7689405a972480c2869cad4",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2849
+    },
+    {
+      "path": "/api/quran/qcf4/page/186.json",
+      "bytes": 23255,
+      "sha256": "cc475938702c1889faf26736b312d694f2fdbdb27686eacf22a8d3cd0756d80d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2856
+    },
+    {
+      "path": "/api/quran/qcf4/page/187.json",
+      "bytes": 21087,
+      "sha256": "1c42b6cd911fd0705a84d0f6b890b976c4dde11b3847c04d463c620b14434cab",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2725
+    },
+    {
+      "path": "/api/quran/qcf4/page/188.json",
+      "bytes": 19821,
+      "sha256": "845dbabf3b59a47137363c1e2cbcb7ad22b5f8eac19cc52a414588acbaff3f59",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2608
+    },
+    {
+      "path": "/api/quran/qcf4/page/189.json",
+      "bytes": 22277,
+      "sha256": "3e4fb66873393dbb6c2d6f40f767c9826120d27e8a1458b9dca222e82d486839",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2852
+    },
+    {
+      "path": "/api/quran/qcf4/page/190.json",
+      "bytes": 19469,
+      "sha256": "6fa1e4a77c6c51490e94500604653f4055c921e5025b7929945af3300e4110c7",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2611
+    },
+    {
+      "path": "/api/quran/qcf4/page/191.json",
+      "bytes": 19614,
+      "sha256": "dca288b6105ca351552e98da3788ada6284309f5bfb265629cf4893070419c50",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2545
+    },
+    {
+      "path": "/api/quran/qcf4/page/192.json",
+      "bytes": 19540,
+      "sha256": "ebc0e48abe4b04d1831d27916391aea0632c16076e5c2eaf78928cc9f8a1a5a2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2577
+    },
+    {
+      "path": "/api/quran/qcf4/page/193.json",
+      "bytes": 20136,
+      "sha256": "e6608439890ec23c46b2f4d8157f1b4fe30c801dec8a75f19b3000575e1db820",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2619
+    },
+    {
+      "path": "/api/quran/qcf4/page/194.json",
+      "bytes": 19783,
+      "sha256": "487cc2ef2ba4d8904c9e844fdf55da8c4ac849dc766f60de3742d1da19413f3c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2561
+    },
+    {
+      "path": "/api/quran/qcf4/page/195.json",
+      "bytes": 20349,
+      "sha256": "fc31eaf9cae69cde87f303f5b8535b246736687fe91a1659b091c0e2054f8a62",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2617
+    },
+    {
+      "path": "/api/quran/qcf4/page/196.json",
+      "bytes": 21308,
+      "sha256": "f6eabfc4fda6da3a41038f4d2c7661801b074c1f2662e2efce15828a58c17433",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2731
+    },
+    {
+      "path": "/api/quran/qcf4/page/197.json",
+      "bytes": 19283,
+      "sha256": "e1d5023fbb5b2b42a8e3b6cd873c8ab3c71ccda6b3daba05e2e240aad7333071",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2508
+    },
+    {
+      "path": "/api/quran/qcf4/page/198.json",
+      "bytes": 18492,
+      "sha256": "85ce2a46b50907c08cad4321034627e0d250b1ba3ba4bd57bca2b25bf00d5f81",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2442
+    },
+    {
+      "path": "/api/quran/qcf4/page/199.json",
+      "bytes": 21755,
+      "sha256": "3ca62d9146d6cfe2f6cb4225284153bf294bf76f6e58b218fb5d940e6111cb88",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2807
+    },
+    {
+      "path": "/api/quran/qcf4/page/200.json",
+      "bytes": 23693,
+      "sha256": "2d33afe9b7df2114ec4ba2b7d078d12fb230ff588993ba67f230b0a95782f04a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2995
+    },
+    {
+      "path": "/api/quran/qcf4/page/201.json",
+      "bytes": 21546,
+      "sha256": "b655aa57ef518192de1a75b4c62486ff97912c5c739bf9874c37555298a1f271",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2772
+    },
+    {
+      "path": "/api/quran/qcf4/page/202.json",
+      "bytes": 21008,
+      "sha256": "42e5b0dbc987f3b58cb3bc45b62f38a9bd3251869490f2e5fa9fefb0aeab222b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2703
+    },
+    {
+      "path": "/api/quran/qcf4/page/203.json",
+      "bytes": 21867,
+      "sha256": "51a998d851972fcc4a4252f8adcf45773f8329a0e7fce70a654d4a37fa104fd8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2830
+    },
+    {
+      "path": "/api/quran/qcf4/page/204.json",
+      "bytes": 21894,
+      "sha256": "36245205797fd059f2d9323b0998245b3b64ba72c9b21afafe9014ccf87f2c68",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2861
+    },
+    {
+      "path": "/api/quran/qcf4/page/205.json",
+      "bytes": 20870,
+      "sha256": "8e147caaa8d2c009384aa599799c943d1ac7965c6570157c723a89b5bdb091fd",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2641
+    },
+    {
+      "path": "/api/quran/qcf4/page/206.json",
+      "bytes": 22616,
+      "sha256": "300c7fa8134cb570924b06ace9e049f82d7228807cdc94e7e51e0dbe8f762695",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2872
+    },
+    {
+      "path": "/api/quran/qcf4/page/207.json",
+      "bytes": 19683,
+      "sha256": "04332fcc2de90cce1ac456ed600af489e55134c9fd8dd70e0cc62a998839a573",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2527
+    },
+    {
+      "path": "/api/quran/qcf4/page/208.json",
+      "bytes": 21971,
+      "sha256": "9b9c2ecf0acb58af09f953d31ad20f6977241e54b866865b1e2b0379a627339b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2918
+    },
+    {
+      "path": "/api/quran/qcf4/page/209.json",
+      "bytes": 21715,
+      "sha256": "4fd9866a9bd46a983e861c5517f8abd62f3f756a392e0b8204101d39b678cbde",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2854
+    },
+    {
+      "path": "/api/quran/qcf4/page/210.json",
+      "bytes": 22841,
+      "sha256": "becc60b9464868694fd003d9f9af185f6f3cd818027e4cfa912a8a5f5b7410d7",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2923
+    },
+    {
+      "path": "/api/quran/qcf4/page/211.json",
+      "bytes": 24307,
+      "sha256": "5215b011ae2acef55ff61b883efade26b870782d65767219e1b23375cef76ba0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3114
+    },
+    {
+      "path": "/api/quran/qcf4/page/212.json",
+      "bytes": 23882,
+      "sha256": "4adda991cfb11bc08d1dcf4c14684ddcda50734f7ba3d10b6fed1eea11e8e4f2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3067
+    },
+    {
+      "path": "/api/quran/qcf4/page/213.json",
+      "bytes": 27273,
+      "sha256": "789dca22fe91238612c8ae236ddab4c1620798a44d611cb67bc156e01e7ec91b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3308
+    },
+    {
+      "path": "/api/quran/qcf4/page/214.json",
+      "bytes": 25548,
+      "sha256": "a84938cabf54d0ff9d0e4231ee4637f94ab2c9816524833c0d3d5f422031ae5e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3234
+    },
+    {
+      "path": "/api/quran/qcf4/page/215.json",
+      "bytes": 25329,
+      "sha256": "2c70271cbbc1fe187ddfcf2d3e419a36779f6a26b18a84589cbdef55e8a350d3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3119
+    },
+    {
+      "path": "/api/quran/qcf4/page/216.json",
+      "bytes": 22145,
+      "sha256": "8008cb6f15ecff9d82ffea5f0e3c8a36f55972e23bb21d7546c2225fcc22c44c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2767
+    },
+    {
+      "path": "/api/quran/qcf4/page/217.json",
+      "bytes": 24448,
+      "sha256": "fc7eb1431f97f2e1e88663567b998e86a4ce190b3482b781e881ca6a1055c83c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3047
+    },
+    {
+      "path": "/api/quran/qcf4/page/218.json",
+      "bytes": 23751,
+      "sha256": "1f9e75bb6b56242e9039162145d88eb906d833808c1567e98aba9d1eaaaab1f3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2998
+    },
+    {
+      "path": "/api/quran/qcf4/page/219.json",
+      "bytes": 23252,
+      "sha256": "1c35d71fef9e717367fc1ad29e2348cd7d24f0e8d6b0e2e5dbd5ba993db94c3d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2958
+    },
+    {
+      "path": "/api/quran/qcf4/page/220.json",
+      "bytes": 24532,
+      "sha256": "fb360b64d78bbbd3d4f2b28de5b541b297b8acb4d22db96174fec161751ebfb5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3049
+    },
+    {
+      "path": "/api/quran/qcf4/page/221.json",
+      "bytes": 22834,
+      "sha256": "55ca2e0d0b7ed0ae3b57d5c652d8f4251ca26bb72ee11c432a8b2deedf876822",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3047
+    },
+    {
+      "path": "/api/quran/qcf4/page/222.json",
+      "bytes": 22636,
+      "sha256": "5974f883d462a2c1d6e4361704511af8f59dd5c42314970c3c5d2e3bb8151c25",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2939
+    },
+    {
+      "path": "/api/quran/qcf4/page/223.json",
+      "bytes": 23690,
+      "sha256": "97aca4a7ed8f7c0aa3f71599ce10d90fb28bbf9b87f42bf858da8f7c64e27d68",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2972
+    },
+    {
+      "path": "/api/quran/qcf4/page/224.json",
+      "bytes": 23522,
+      "sha256": "62b8cf8f230da06d45a1777b367fa82ef094c94a294698acde6a3b4f5766bf33",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2966
+    },
+    {
+      "path": "/api/quran/qcf4/page/225.json",
+      "bytes": 24899,
+      "sha256": "b1419b6468da6e99a4dd293251c6d7a14c81471839feeaa81e2d71c9eac73626",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3084
+    },
+    {
+      "path": "/api/quran/qcf4/page/226.json",
+      "bytes": 24385,
+      "sha256": "962ae45f2db0faf85465b76276f1d2e0a751a5622d971ef6fe19b05266f1ba34",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3068
+    },
+    {
+      "path": "/api/quran/qcf4/page/227.json",
+      "bytes": 24411,
+      "sha256": "df582dc3028d56c41d67b7896fa4cb88ea9d4a4411d1f01d9fb9a7abae957b63",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3045
+    },
+    {
+      "path": "/api/quran/qcf4/page/228.json",
+      "bytes": 26728,
+      "sha256": "fa1ee15501a8bc486f2242a265f492727add92722af119dcc573a495b0ef134b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3386
+    },
+    {
+      "path": "/api/quran/qcf4/page/229.json",
+      "bytes": 22875,
+      "sha256": "204a25bad79fc758763cd99a3a74d460e624a019a21ab2bdfd7d43e7bdbe4cfe",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2973
+    },
+    {
+      "path": "/api/quran/qcf4/page/230.json",
+      "bytes": 25847,
+      "sha256": "fb8343d44912107025e41810a64400ae209381406dcadb611b3c304440e68ae8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3245
+    },
+    {
+      "path": "/api/quran/qcf4/page/231.json",
+      "bytes": 22124,
+      "sha256": "5bf27e7685be4bf0f6b45e6168f8c8554afd68d00bc743b41f15017c213a4082",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2828
+    },
+    {
+      "path": "/api/quran/qcf4/page/232.json",
+      "bytes": 22435,
+      "sha256": "1eb9d0f015fd875afd0437068b0697fe2370af944388b8b86ec1a7b823858bb5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2919
+    },
+    {
+      "path": "/api/quran/qcf4/page/233.json",
+      "bytes": 24363,
+      "sha256": "214ed569d477408cf2fab69ce876041939a43627409792861a9510d94387bb1f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3032
+    },
+    {
+      "path": "/api/quran/qcf4/page/234.json",
+      "bytes": 23373,
+      "sha256": "ad4daf2b9adaf951a1cec11b99d7733c48c6081b0e9873086d8301e72328eeb6",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3002
+    },
+    {
+      "path": "/api/quran/qcf4/page/235.json",
+      "bytes": 20732,
+      "sha256": "46bc92b843cb38aadf4a1da4b51e219bbfe3eb2c2b9b4c3a1d2d668c966c2452",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2847
+    },
+    {
+      "path": "/api/quran/qcf4/page/236.json",
+      "bytes": 23525,
+      "sha256": "cb8ed11c18a12e48c7eaf9e5006b8bf82cee668bdf8c56b99b1c5020bd07f368",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2988
+    },
+    {
+      "path": "/api/quran/qcf4/page/237.json",
+      "bytes": 21726,
+      "sha256": "28d319174222760f7c1958fae25c7486d2def505168d3f644b1501072dcbbe7c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2893
+    },
+    {
+      "path": "/api/quran/qcf4/page/238.json",
+      "bytes": 23574,
+      "sha256": "fc9c620026fe278df87031a3b394b087564673393cdca65254bf2bb72c451621",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2992
+    },
+    {
+      "path": "/api/quran/qcf4/page/239.json",
+      "bytes": 24636,
+      "sha256": "e904cc55610c3e86b3e3032e3654c063bff2de6b7cab4dd7acd7890f3bba4085",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3110
+    },
+    {
+      "path": "/api/quran/qcf4/page/240.json",
+      "bytes": 22145,
+      "sha256": "fd22406c43dd76367b0747bdbb77190785bf56dc0d48c3a287cccf485882d9b3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2830
+    },
+    {
+      "path": "/api/quran/qcf4/page/241.json",
+      "bytes": 25088,
+      "sha256": "071325f506693c951e3edfc9924d580512d99e1b53b453c6c7c15af70eba0f7e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3151
+    },
+    {
+      "path": "/api/quran/qcf4/page/242.json",
+      "bytes": 23866,
+      "sha256": "a0d278a03311c48b02a391b5abcb2a6b88bae3e4388cb26f904431ba8cd96175",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3069
+    },
+    {
+      "path": "/api/quran/qcf4/page/243.json",
+      "bytes": 23852,
+      "sha256": "c364da0ccfc2d56a5412957c6c9cf67f01caa71d56d521da6916ac181c69b811",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2954
+    },
+    {
+      "path": "/api/quran/qcf4/page/244.json",
+      "bytes": 23390,
+      "sha256": "4936faec6f35f0641ef80e483d41e9cc0c6a30cec2199dbad223f900b2cc78d1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2958
+    },
+    {
+      "path": "/api/quran/qcf4/page/245.json",
+      "bytes": 23108,
+      "sha256": "101b499e5c0b7ddf1bbd5bc044b886b1959b1b70f3c0eeea762e0f6cd5a74604",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2880
+    },
+    {
+      "path": "/api/quran/qcf4/page/246.json",
+      "bytes": 21920,
+      "sha256": "37ded2ad550a35d06c2317fc8435dd98d50557c5a2ed7973a8e1bdc5b51a3024",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2774
+    },
+    {
+      "path": "/api/quran/qcf4/page/247.json",
+      "bytes": 24210,
+      "sha256": "1f33edc2e75dfe681fd9cdae942e752762aa83d4eebb1164b1bc8a39ee995177",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3080
+    },
+    {
+      "path": "/api/quran/qcf4/page/248.json",
+      "bytes": 22882,
+      "sha256": "70326e20fbba42e6db01e434ef157c8692034e3ae60e0f84be42e2d3961ed6ba",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2944
+    },
+    {
+      "path": "/api/quran/qcf4/page/249.json",
+      "bytes": 20758,
+      "sha256": "8bf96ebac6ad36d77490ea12c33fe789dfb90d20b1d972d5365af759f2d07bb0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2812
+    },
+    {
+      "path": "/api/quran/qcf4/page/250.json",
+      "bytes": 22966,
+      "sha256": "190cea34ff1172dd42388b11e7fc7f6df95b0694e7c0c0370793d0926eb1e9bd",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2992
+    },
+    {
+      "path": "/api/quran/qcf4/page/251.json",
+      "bytes": 26117,
+      "sha256": "cd19a0e58f2ef928648044a951aee412fb91dcc176ff614a7aac51e669d93b98",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3307
+    },
+    {
+      "path": "/api/quran/qcf4/page/252.json",
+      "bytes": 25719,
+      "sha256": "6baebaef08a1d5575f37b501b3babceb435b928c115e735591481d7c2de80c2c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3189
+    },
+    {
+      "path": "/api/quran/qcf4/page/253.json",
+      "bytes": 26081,
+      "sha256": "85e3dcc94bdd0c341ab1de88cf4d772007a2ae7de67c4af3f290d2bda5376152",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3291
+    },
+    {
+      "path": "/api/quran/qcf4/page/254.json",
+      "bytes": 24562,
+      "sha256": "60d411486f064ba23d685c9ae36925fc366282fdedbc9e27065736dc4caf5776",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3175
+    },
+    {
+      "path": "/api/quran/qcf4/page/255.json",
+      "bytes": 18174,
+      "sha256": "8d93f701ac499c92e0b1e0f68b62cd33e9cdedaa7156bf8b9989eb8a0114207f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2504
+    },
+    {
+      "path": "/api/quran/qcf4/page/256.json",
+      "bytes": 20814,
+      "sha256": "b769d9b1c48ac9748f1f1c8689b9dff28f4821692a76373db1f3191d5f8b9ea3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2716
+    },
+    {
+      "path": "/api/quran/qcf4/page/257.json",
+      "bytes": 21509,
+      "sha256": "cb5e65ba8f74bc2291c866991c29425b39efca0696464528f3a6da6172197b49",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2768
+    },
+    {
+      "path": "/api/quran/qcf4/page/258.json",
+      "bytes": 22309,
+      "sha256": "fc4a89d3d72d9b7864c60f0bceed2fac486ee74f9005119dbb48aa47576dcf56",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2883
+    },
+    {
+      "path": "/api/quran/qcf4/page/259.json",
+      "bytes": 22478,
+      "sha256": "89a6e9fb2d35406d891b73ea5e43e4f990909185e8d28dff172f53dd4eca0018",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2954
+    },
+    {
+      "path": "/api/quran/qcf4/page/260.json",
+      "bytes": 22904,
+      "sha256": "623031b99ea55afea027158566593356cee3deaae511f27bb2aa6705b25449de",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2986
+    },
+    {
+      "path": "/api/quran/qcf4/page/261.json",
+      "bytes": 21045,
+      "sha256": "eabf282845db39f76a6006d3297035d1714cabe3604033b1f1297c756610be7d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2799
+    },
+    {
+      "path": "/api/quran/qcf4/page/262.json",
+      "bytes": 21021,
+      "sha256": "ed8dd21f4d2604c63d703446a4fb7b849c748471577386488d1a2e51b3c6e2c6",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2797
+    },
+    {
+      "path": "/api/quran/qcf4/page/263.json",
+      "bytes": 23617,
+      "sha256": "661d6e7a6aa78f32002ad91979b25f4576e24a088fc37fa1ebca161a506bc24b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2970
+    },
+    {
+      "path": "/api/quran/qcf4/page/264.json",
+      "bytes": 24078,
+      "sha256": "2fc1ac49b9a70b33696276b02056020cfbe21ecaed395dd33e10a591bf87196c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3062
+    },
+    {
+      "path": "/api/quran/qcf4/page/265.json",
+      "bytes": 23387,
+      "sha256": "696b90aaab81bbf270269703b761a015ab480be1c8bd99985cf0fec105ac89ab",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2951
+    },
+    {
+      "path": "/api/quran/qcf4/page/266.json",
+      "bytes": 23074,
+      "sha256": "f77d23eead2b383e675482ae516adb9086070541712c4192845057e2ae339d4c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2961
+    },
+    {
+      "path": "/api/quran/qcf4/page/267.json",
+      "bytes": 19749,
+      "sha256": "6bde86cf5b9b133adfff0722706545ef7c84731bcffddfb7cc715f5d37f908c9",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2710
+    },
+    {
+      "path": "/api/quran/qcf4/page/268.json",
+      "bytes": 19720,
+      "sha256": "d67608a1db1ef4a2fbfc5619794839a8fc420c46e573ae8925f0cb8209b1c379",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2609
+    },
+    {
+      "path": "/api/quran/qcf4/page/269.json",
+      "bytes": 22384,
+      "sha256": "dee825224b625b2367432abb117d2951facbfc72513b583f46b4ecc3945cb108",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2902
+    },
+    {
+      "path": "/api/quran/qcf4/page/270.json",
+      "bytes": 22598,
+      "sha256": "40b9458ee057ea90c092a3fc24b4db35bdd6e99ce69887a5869f8b9f3ec1d51b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2926
+    },
+    {
+      "path": "/api/quran/qcf4/page/271.json",
+      "bytes": 23646,
+      "sha256": "9aa56e53ac4b7cbecf3dfc4eb7aad1c492389ae5dd274a90a5b8ecf120c73bc0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2990
+    },
+    {
+      "path": "/api/quran/qcf4/page/272.json",
+      "bytes": 25423,
+      "sha256": "eeeb290b6ed2660326c7495e380d8aa9c5b7684a048f0e568d8ded5075b7b954",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3227
+    },
+    {
+      "path": "/api/quran/qcf4/page/273.json",
+      "bytes": 24098,
+      "sha256": "230486093d32f66415e952cee8e5194c5a94ab92f3d631502b3311d0bd4a4fb5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3107
+    },
+    {
+      "path": "/api/quran/qcf4/page/274.json",
+      "bytes": 25642,
+      "sha256": "992c1b3149aca02a3129444b83bc58c5d4155b2db9882809139e00b71acbb279",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3226
+    },
+    {
+      "path": "/api/quran/qcf4/page/275.json",
+      "bytes": 23164,
+      "sha256": "004a8ca759103d3d5157435a921e0fea3db04e6378d97dc50d032203cb2cc51d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2920
+    },
+    {
+      "path": "/api/quran/qcf4/page/276.json",
+      "bytes": 20741,
+      "sha256": "409d14f192c8c0369aa0938dc9b487a7128dcfe1cb6797776c48e1ab611a19a1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2638
+    },
+    {
+      "path": "/api/quran/qcf4/page/277.json",
+      "bytes": 21398,
+      "sha256": "eaeb491226cdbf7acf2aad4ed83e0079ded82f0554e2c391b721976a52044a05",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2808
+    },
+    {
+      "path": "/api/quran/qcf4/page/278.json",
+      "bytes": 21981,
+      "sha256": "c59e9e40bbb5f4b8de20881570386b5144d40000442a646118756732c0ed60e5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2791
+    },
+    {
+      "path": "/api/quran/qcf4/page/279.json",
+      "bytes": 19974,
+      "sha256": "eb755739ebfdee8bfc33a360c76c5f2e2dfb9192e0796a7cb05aeaa448ac6eb1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2531
+    },
+    {
+      "path": "/api/quran/qcf4/page/280.json",
+      "bytes": 22202,
+      "sha256": "fdd162dfa86d41bd29a9f0f7469b4dfb0f517670fb9fa2cf45e22bcf26e0b368",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2799
+    },
+    {
+      "path": "/api/quran/qcf4/page/281.json",
+      "bytes": 23340,
+      "sha256": "95eff82735d3a005d4dc76ee4317d81ff937dc9a4d170e9f060328d0c10645a9",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2962
+    },
+    {
+      "path": "/api/quran/qcf4/page/282.json",
+      "bytes": 19139,
+      "sha256": "a7f61c6bd260476aee5be94c2c52e1ec5378c3d61f7d722757ddfeb8652c7d19",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2614
+    },
+    {
+      "path": "/api/quran/qcf4/page/283.json",
+      "bytes": 23981,
+      "sha256": "4af80f6d7088f6d072fec3aa8daffab4b1ae1b2be3b3bb74460926d28c84343d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3136
+    },
+    {
+      "path": "/api/quran/qcf4/page/284.json",
+      "bytes": 23202,
+      "sha256": "d5769f786cdaa8a6d065dae21ca4c1b1b04beb3ffb83d64b544e918c15df1229",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3026
+    },
+    {
+      "path": "/api/quran/qcf4/page/285.json",
+      "bytes": 25421,
+      "sha256": "faad6a18a72743198ac69d361c115aad0922a0d6449615dc524e6376c9c158e7",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3219
+    },
+    {
+      "path": "/api/quran/qcf4/page/286.json",
+      "bytes": 25966,
+      "sha256": "187223dfb265367e1ff0254a0006dd83fd73d2c67b02823695c5a2269a940309",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3284
+    },
+    {
+      "path": "/api/quran/qcf4/page/287.json",
+      "bytes": 23577,
+      "sha256": "b228b2c9086cbc9c792a94915d86deb76e06249563554ad797a2543f205ef153",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3046
+    },
+    {
+      "path": "/api/quran/qcf4/page/288.json",
+      "bytes": 22189,
+      "sha256": "650c7f2ea4560cbee1924ed0fe019b652c143875f86c16bd766c6a3a00a4dde8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2876
+    },
+    {
+      "path": "/api/quran/qcf4/page/289.json",
+      "bytes": 23351,
+      "sha256": "17c6961a3a6e89d5fe59ea40b0d59150d990ab7eb3449de120c908901dd62014",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2999
+    },
+    {
+      "path": "/api/quran/qcf4/page/290.json",
+      "bytes": 24066,
+      "sha256": "6a66d8f17ca8bfd130f60276852db68cf32098eb369c67f8800c7b62347d16a2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3080
+    },
+    {
+      "path": "/api/quran/qcf4/page/291.json",
+      "bytes": 24626,
+      "sha256": "f7519f8a70733460585c97d08052380483c5eb1bfcc52d89a1429230b2f72400",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3077
+    },
+    {
+      "path": "/api/quran/qcf4/page/292.json",
+      "bytes": 23677,
+      "sha256": "206891dc3949e2bf11e381e4b25284390266c556434329aebaaa1daf5c89a2d2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3074
+    },
+    {
+      "path": "/api/quran/qcf4/page/293.json",
+      "bytes": 23442,
+      "sha256": "ef2a87366062f2c93ecc99d53dd78e6c27572930b5cfa368f08f97692d7c9971",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3096
+    },
+    {
+      "path": "/api/quran/qcf4/page/294.json",
+      "bytes": 23699,
+      "sha256": "0eac45ad80b82f98dd3f45925b92cb58651eb61396eb558f2ce21bf9ffa8a95b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3029
+    },
+    {
+      "path": "/api/quran/qcf4/page/295.json",
+      "bytes": 21920,
+      "sha256": "388e0ad54e900a407c7af3ad2027e5fb8008597d1325e2fb1cc860ceb98c107e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2865
+    },
+    {
+      "path": "/api/quran/qcf4/page/296.json",
+      "bytes": 23379,
+      "sha256": "aaa27f7bb8f513cb79465fb15c739d6ab4bdca6e733318c4a4c0297f4c6572da",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2966
+    },
+    {
+      "path": "/api/quran/qcf4/page/297.json",
+      "bytes": 23836,
+      "sha256": "c1118ea5e0326886dd30df497fe66575b695b00573f4c4139290f50448c0a5dc",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3148
+    },
+    {
+      "path": "/api/quran/qcf4/page/298.json",
+      "bytes": 26519,
+      "sha256": "3d6df05bd6ff2ea6bc62d4d3c0a126011ec0224e417c5a5bf777e9462f0b0f1d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3313
+    },
+    {
+      "path": "/api/quran/qcf4/page/299.json",
+      "bytes": 22885,
+      "sha256": "f5a5d316703b101f3cbc4120e6f73c4290735d9607c847ef1e4c99b5ee73ae50",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3030
+    },
+    {
+      "path": "/api/quran/qcf4/page/300.json",
+      "bytes": 23098,
+      "sha256": "bdffffadfa7fde1bb29167cf2567df72b7aa2f071f563e301188c3a347479cf4",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2997
+    },
+    {
+      "path": "/api/quran/qcf4/page/301.json",
+      "bytes": 26275,
+      "sha256": "5b343125f730c902d5946de1d7d3d2ebcb436f674c01d6d932effcd9ddee8fc1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3251
+    },
+    {
+      "path": "/api/quran/qcf4/page/302.json",
+      "bytes": 24307,
+      "sha256": "a0dc7fa59c80091d4b31fd83fd5d499d99cc1605368c57c05ee15fd13548c877",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3105
+    },
+    {
+      "path": "/api/quran/qcf4/page/303.json",
+      "bytes": 28251,
+      "sha256": "8cd5f910f6abdc78aecd9ef84170c20d58d1e7ac75ef7d0e1db1fc20c4278cb6",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3421
+    },
+    {
+      "path": "/api/quran/qcf4/page/304.json",
+      "bytes": 27520,
+      "sha256": "342d17be906de7ed0bff5f23127037c9d42c3ea50f7a793ce85dd582e56a5f07",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3422
+    },
+    {
+      "path": "/api/quran/qcf4/page/305.json",
+      "bytes": 20032,
+      "sha256": "196773e6f3b5bed834764b0c6702517bab69f9582e0ab64bfee3c44a7df8bfd9",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2636
+    },
+    {
+      "path": "/api/quran/qcf4/page/306.json",
+      "bytes": 23335,
+      "sha256": "bf0d01dec2e50c33c29cc129a11fdd10ec1a266910ec09b5f363a3c128fda5d7",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2987
+    },
+    {
+      "path": "/api/quran/qcf4/page/307.json",
+      "bytes": 24683,
+      "sha256": "d5623ba183fb364d15c9756a0b3692730141d9156f3d935d26f79f131e5c8b5d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3192
+    },
+    {
+      "path": "/api/quran/qcf4/page/308.json",
+      "bytes": 25780,
+      "sha256": "8148fdcb409b64840ff043972a08f81ed4d3190ad913d98ed048c604f1b1cce8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3178
+    },
+    {
+      "path": "/api/quran/qcf4/page/309.json",
+      "bytes": 26410,
+      "sha256": "cd2b46a36e50c29bbb41ed313a1fac834a82daa953ba472a3eb0b958a752104e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3328
+    },
+    {
+      "path": "/api/quran/qcf4/page/310.json",
+      "bytes": 24279,
+      "sha256": "16a6470f02b4c9ce32cedab488d56d75719fc6c1768bc30ee9205d8157e5d764",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3131
+    },
+    {
+      "path": "/api/quran/qcf4/page/311.json",
+      "bytes": 23532,
+      "sha256": "66049bbb88952bbf92861585857a289d77d774a9fa1bb62cf76b2cec389f807c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2989
+    },
+    {
+      "path": "/api/quran/qcf4/page/312.json",
+      "bytes": 21638,
+      "sha256": "9a74ab0f8cb7e0df38f540da1f06b85388fb4ee45934f207f97099a6d6a0fc0b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2873
+    },
+    {
+      "path": "/api/quran/qcf4/page/313.json",
+      "bytes": 25664,
+      "sha256": "788bef1eb11ad509970b59b7b5a6caaa8e23ba9124a9a766662218708ff5305a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3234
+    },
+    {
+      "path": "/api/quran/qcf4/page/314.json",
+      "bytes": 26858,
+      "sha256": "d9f222e2a135be4b01da30523fbc68600765c60be007bd78724892f055da74f8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3342
+    },
+    {
+      "path": "/api/quran/qcf4/page/315.json",
+      "bytes": 23770,
+      "sha256": "76b549ad6b4163261c48cd8d9bf6d578e5c61a3f9a60c162ea6f2882192a337d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3048
+    },
+    {
+      "path": "/api/quran/qcf4/page/316.json",
+      "bytes": 26813,
+      "sha256": "373c704c7b33cc2adb8e790a95445c5df21c37523ffa6673de64425473b74814",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3345
+    },
+    {
+      "path": "/api/quran/qcf4/page/317.json",
+      "bytes": 24130,
+      "sha256": "e110489394026b2f8a7a82b65212ee6417af8a4cfdcea329ce2921fe5bfd699e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3049
+    },
+    {
+      "path": "/api/quran/qcf4/page/318.json",
+      "bytes": 24327,
+      "sha256": "273bf42494473646ad41c8f249a396c05512a623de6f3c76a6b3e25d989c5bfa",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3056
+    },
+    {
+      "path": "/api/quran/qcf4/page/319.json",
+      "bytes": 25388,
+      "sha256": "df404e2dadd93ecdd951915fff43064d3105a85595ea95daf763806000c724a8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3210
+    },
+    {
+      "path": "/api/quran/qcf4/page/320.json",
+      "bytes": 23979,
+      "sha256": "4504d7609a80bb4f274c3178bc13ae6079318859d2e1bb71640b862bd7211e56",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3045
+    },
+    {
+      "path": "/api/quran/qcf4/page/321.json",
+      "bytes": 24746,
+      "sha256": "c870fc6cf7d6b3ce6855d364d22201c7a91377e76e90eec7ebee8c61b1935380",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3187
+    },
+    {
+      "path": "/api/quran/qcf4/page/322.json",
+      "bytes": 19223,
+      "sha256": "c622428276b1ab72f4154b4bc6c75de6b3c1c22a4e901c286accd9237f860c2a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2637
+    },
+    {
+      "path": "/api/quran/qcf4/page/323.json",
+      "bytes": 24749,
+      "sha256": "c1c8eb6ec1e2c3547e04b8d5002fbbd7d73bcb2f69d4b7c0bdba87cad1b0b393",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3145
+    },
+    {
+      "path": "/api/quran/qcf4/page/324.json",
+      "bytes": 22892,
+      "sha256": "023f740def976ca346675c72191cc7059dce36c5d49a386f2977a7709ab8459e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2976
+    },
+    {
+      "path": "/api/quran/qcf4/page/325.json",
+      "bytes": 20605,
+      "sha256": "ae0414901c051a6501cdb0baa7cc67202ebf15e083ca5487a962e469b38c9b35",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2691
+    },
+    {
+      "path": "/api/quran/qcf4/page/326.json",
+      "bytes": 22859,
+      "sha256": "3a07120e1f4c9194cf135b6a3100d0a76c77471fdce57e80851d9c8734502377",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2975
+    },
+    {
+      "path": "/api/quran/qcf4/page/327.json",
+      "bytes": 21714,
+      "sha256": "93709a82de753635cb53dead80d1df123114e69ecba6d54cc84afed34471738e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2750
+    },
+    {
+      "path": "/api/quran/qcf4/page/328.json",
+      "bytes": 20382,
+      "sha256": "b161219df5b1cb42d9434d495870eedd4c1c0a9545efb9b6dfa77f7ee7a3c50c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2708
+    },
+    {
+      "path": "/api/quran/qcf4/page/329.json",
+      "bytes": 20162,
+      "sha256": "bbd7cac877e92dbf5cbac5d9494e35d0938a3c567a8b84547292922bcdbb1a91",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2648
+    },
+    {
+      "path": "/api/quran/qcf4/page/330.json",
+      "bytes": 19748,
+      "sha256": "219b3a571211b4d651dea9333dcfd7e254c8465f752f8936b0a882e840214963",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2570
+    },
+    {
+      "path": "/api/quran/qcf4/page/331.json",
+      "bytes": 19905,
+      "sha256": "6c23d059a5c9a3f5153e201c63dcd88591a36581fd7bc033d1e229692d719382",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2635
+    },
+    {
+      "path": "/api/quran/qcf4/page/332.json",
+      "bytes": 21371,
+      "sha256": "072a6be74acba962405e46bfcbc4a44a7faf3fb1179c4642efd7ef550a703211",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2780
+    },
+    {
+      "path": "/api/quran/qcf4/page/333.json",
+      "bytes": 26029,
+      "sha256": "4aba6a675771aa6d0c894cf1aafb8415801e66d40a83a47e69a87473763c6243",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3243
+    },
+    {
+      "path": "/api/quran/qcf4/page/334.json",
+      "bytes": 22886,
+      "sha256": "9ce91a1837f66f3e6433a39200f4435dc1529f84d7136c2836984f0355e2acbc",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2937
+    },
+    {
+      "path": "/api/quran/qcf4/page/335.json",
+      "bytes": 20404,
+      "sha256": "26a10938ffc7d7dc529dc68b0a3342239699f6b6ec353db168046975470237e4",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2702
+    },
+    {
+      "path": "/api/quran/qcf4/page/336.json",
+      "bytes": 23946,
+      "sha256": "3ca68def51f8d30e7558b986620a382ee371c8be25183697366c6b479425bd91",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3050
+    },
+    {
+      "path": "/api/quran/qcf4/page/337.json",
+      "bytes": 21732,
+      "sha256": "aa7d7c7d62819c1e142fcf4b0ed86a762f2aa5691f792bf44ff5356ce2a623cd",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2872
+    },
+    {
+      "path": "/api/quran/qcf4/page/338.json",
+      "bytes": 22770,
+      "sha256": "098531b9a1292ab829ffb78cee2c8d109d923e712ffc86984add3a008d7ef330",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2944
+    },
+    {
+      "path": "/api/quran/qcf4/page/339.json",
+      "bytes": 21378,
+      "sha256": "6d8c81840e5a825fee2a2292426cbdd6c61e0ad745ddf71a886d133b365c4274",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2696
+    },
+    {
+      "path": "/api/quran/qcf4/page/340.json",
+      "bytes": 23495,
+      "sha256": "e22e06d42e76935c897336956292629a949d8366c33281409dfb913650900029",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2966
+    },
+    {
+      "path": "/api/quran/qcf4/page/341.json",
+      "bytes": 19953,
+      "sha256": "c2441be75cf59683677da41c3bd43848fce97b2f32a9b8f4ba3a888af75d48ef",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2622
+    },
+    {
+      "path": "/api/quran/qcf4/page/342.json",
+      "bytes": 21432,
+      "sha256": "372dbdf70e6a2c96084e5a9908c28be8fc073b3dff1d799a616d3ebcc535edb5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2771
+    },
+    {
+      "path": "/api/quran/qcf4/page/343.json",
+      "bytes": 25113,
+      "sha256": "47424a0623ab67242648b049e327820be47b9ad0c61c4d40242ffe7188880ed0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3210
+    },
+    {
+      "path": "/api/quran/qcf4/page/344.json",
+      "bytes": 25697,
+      "sha256": "7f9add7f570941f3770d8bdf733c9a2c010b0f48534816b72cb26280ce88fba7",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3294
+    },
+    {
+      "path": "/api/quran/qcf4/page/345.json",
+      "bytes": 24688,
+      "sha256": "b41c4e660b271728d534db774d7fd9de4616293af6200e16ec84140259142f0d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3180
+    },
+    {
+      "path": "/api/quran/qcf4/page/346.json",
+      "bytes": 24780,
+      "sha256": "db5a3cbe017b72ca2ab43fac9b4142672304c6f228b5073b6b432b4013ad341f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3180
+    },
+    {
+      "path": "/api/quran/qcf4/page/347.json",
+      "bytes": 23704,
+      "sha256": "85d2784edfca01d14f1649d0181f2c0ae6b33946ef5beeaf8955fc6e0f911ede",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2997
+    },
+    {
+      "path": "/api/quran/qcf4/page/348.json",
+      "bytes": 23905,
+      "sha256": "341d7f8a4fe6c61e41f3163f25f8b514d8641d9ffec6e552c378f81a92103bbf",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3080
+    },
+    {
+      "path": "/api/quran/qcf4/page/349.json",
+      "bytes": 23097,
+      "sha256": "d49105a042e840e1e550d0f2864bac819e68e82799cf305a213d68d5e8628910",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2922
+    },
+    {
+      "path": "/api/quran/qcf4/page/350.json",
+      "bytes": 24751,
+      "sha256": "e436c6f1e7e916bdd2d382e5ef7612a1513e42c3ece9e9d03c9a7e20f5149b6a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3112
+    },
+    {
+      "path": "/api/quran/qcf4/page/351.json",
+      "bytes": 25316,
+      "sha256": "e1e7eef63d5fe58b5de6c6dd266f8f299403f9e40a4bc1b11af19c9eddde04cb",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3118
+    },
+    {
+      "path": "/api/quran/qcf4/page/352.json",
+      "bytes": 22610,
+      "sha256": "d70dd76cc132e42757ed98f340742c7436c2472b54163bb6c9b38cf3dbe640ff",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2908
+    },
+    {
+      "path": "/api/quran/qcf4/page/353.json",
+      "bytes": 22634,
+      "sha256": "370477aab92950f1053921b04aa39d7becf6614210fb5378597b3ae648e6692e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2796
+    },
+    {
+      "path": "/api/quran/qcf4/page/354.json",
+      "bytes": 24253,
+      "sha256": "3811d7ceee96969f7ef6e2dfa7035d23785db32d365b91648a91c6329dccf152",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3135
+    },
+    {
+      "path": "/api/quran/qcf4/page/355.json",
+      "bytes": 26381,
+      "sha256": "70bf8307c6b4c23f9ec2aca7c9d8852faf5055eab061ca398d78f52379765446",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3290
+    },
+    {
+      "path": "/api/quran/qcf4/page/356.json",
+      "bytes": 25828,
+      "sha256": "60add6a272399d04ab9ab487890a26e75892170b47a0027628538ca1c4ac307f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3208
+    },
+    {
+      "path": "/api/quran/qcf4/page/357.json",
+      "bytes": 22405,
+      "sha256": "c626a5696ac76e0a0dc6b61f74de347157889050c92c79389e4cec7545cdff21",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2847
+    },
+    {
+      "path": "/api/quran/qcf4/page/358.json",
+      "bytes": 20130,
+      "sha256": "e65640e418b9bff51a52e8c4e366659877883e702a019b889b2abaec3f4f4540",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2499
+    },
+    {
+      "path": "/api/quran/qcf4/page/359.json",
+      "bytes": 20628,
+      "sha256": "824432afdab57f7568030f4767f347ebce2510269f873827b7c3f127fb1805bb",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2733
+    },
+    {
+      "path": "/api/quran/qcf4/page/360.json",
+      "bytes": 22054,
+      "sha256": "0d8582040ddcaf70dae55c84469a441f31a0cd8f62d81d46fabedcf35f776706",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2828
+    },
+    {
+      "path": "/api/quran/qcf4/page/361.json",
+      "bytes": 21411,
+      "sha256": "684bea6ecdd617f01ea0942d159feb13884f5b6c8d7dc0bcc9014e6e3e183f4e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2817
+    },
+    {
+      "path": "/api/quran/qcf4/page/362.json",
+      "bytes": 22648,
+      "sha256": "0bd1b85999a454b5e84d0e3a729e9c4ad1a28615ca22a8c6791a317527325a5b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2954
+    },
+    {
+      "path": "/api/quran/qcf4/page/363.json",
+      "bytes": 21329,
+      "sha256": "16c12a76de8efbe2ed8e2ba90be347b1ab8dc1565b0bb5333249c8486de6819d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2803
+    },
+    {
+      "path": "/api/quran/qcf4/page/364.json",
+      "bytes": 24019,
+      "sha256": "a36ca8d541f5725f8fa9314e3f53de968adcccfbd10c5e1a52c45a711e0f0770",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3055
+    },
+    {
+      "path": "/api/quran/qcf4/page/365.json",
+      "bytes": 23280,
+      "sha256": "5bd70873ba02a2d6067f1cb840dc3ac58a56a7d0ac2f2b7dec70f5f903eb3928",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2954
+    },
+    {
+      "path": "/api/quran/qcf4/page/366.json",
+      "bytes": 20305,
+      "sha256": "187e3ee0b99677b7fefc1200527016630541d3ae79876bc4a32d745a947e7aaa",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2651
+    },
+    {
+      "path": "/api/quran/qcf4/page/367.json",
+      "bytes": 25102,
+      "sha256": "c2b10b699fdd8be961417c1fd22f39643e0533bde4df5aaee0531bbd5bd8aa4c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3244
+    },
+    {
+      "path": "/api/quran/qcf4/page/368.json",
+      "bytes": 24942,
+      "sha256": "a4571717c9814715825f051dbc9d18211fccc1d2dcf803884416b870dcd2f5da",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3154
+    },
+    {
+      "path": "/api/quran/qcf4/page/369.json",
+      "bytes": 25603,
+      "sha256": "45f21fe2b1ebe4c3acdea2c8fa0a8c4d46689fec90fb299949aa12d6181f190a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3252
+    },
+    {
+      "path": "/api/quran/qcf4/page/370.json",
+      "bytes": 24289,
+      "sha256": "aa6e7f603a660eb72d189f218e02e7e9d17528ccfac63923947fe8333d9f43bf",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3111
+    },
+    {
+      "path": "/api/quran/qcf4/page/371.json",
+      "bytes": 27582,
+      "sha256": "41117d1b6203840c37f9c3f8215522bb1c2afcc4e0dbcf7d74e1a1a59792a628",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3419
+    },
+    {
+      "path": "/api/quran/qcf4/page/372.json",
+      "bytes": 26351,
+      "sha256": "92b4277b8bbd6914009f16843dd14a58684188d873a1f658702bc6db7312f0d1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3284
+    },
+    {
+      "path": "/api/quran/qcf4/page/373.json",
+      "bytes": 25257,
+      "sha256": "103d454522fa0bfa014a516129ba365ad62809a7fcde4b9fc9f2d4b1483bbe89",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3187
+    },
+    {
+      "path": "/api/quran/qcf4/page/374.json",
+      "bytes": 26571,
+      "sha256": "926e614a62cce431cd6d838b705651820ad01420d7aae30ac80aaaf7a5cbb4a5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3278
+    },
+    {
+      "path": "/api/quran/qcf4/page/375.json",
+      "bytes": 24804,
+      "sha256": "0690dbe5373acd76fbc91d06d464be84dc320f097c719a4f8f3497ade09fbf25",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3140
+    },
+    {
+      "path": "/api/quran/qcf4/page/376.json",
+      "bytes": 23040,
+      "sha256": "e15f5e1f3decc3ab2b04185990310e72ccb8bcd4c679610b266ea74ffbc3115f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2945
+    },
+    {
+      "path": "/api/quran/qcf4/page/377.json",
+      "bytes": 25051,
+      "sha256": "d33c8bc6aab20fef8560c7696e742f9f455b1af49226211b0e3725e513218ac8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3258
+    },
+    {
+      "path": "/api/quran/qcf4/page/378.json",
+      "bytes": 23112,
+      "sha256": "6e608dc8013db1c8d7f4d74dbf27e1e591909076e90046023f88821f810125b7",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3020
+    },
+    {
+      "path": "/api/quran/qcf4/page/379.json",
+      "bytes": 24454,
+      "sha256": "38eedfb998c19cc784c527846820c2b5be1ee0dcd914891c7df61cf027043912",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3118
+    },
+    {
+      "path": "/api/quran/qcf4/page/380.json",
+      "bytes": 27518,
+      "sha256": "3139b136c10e939f4f157f4b24485c1d009bd97f8fafe9fecba5cd6619912b28",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3391
+    },
+    {
+      "path": "/api/quran/qcf4/page/381.json",
+      "bytes": 20534,
+      "sha256": "a0330b8a5c3634c32b4468338140b902887fbd6788eb6beb0326297825c4c6e9",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2730
+    },
+    {
+      "path": "/api/quran/qcf4/page/382.json",
+      "bytes": 21965,
+      "sha256": "dedbe2b31d5039ea9a143ebf8d5d52eb0a961282327bd0168a3d2a22e274124e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2833
+    },
+    {
+      "path": "/api/quran/qcf4/page/383.json",
+      "bytes": 25236,
+      "sha256": "62b872d570010b4293457ac0c5f5e876ff9261d6176eb746c8d7a305638a6cb0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3137
+    },
+    {
+      "path": "/api/quran/qcf4/page/384.json",
+      "bytes": 25540,
+      "sha256": "3b4c7a4a88a8c14b3fc084b62ada7bc1f4d5529a01fc726bfb404bae33264d61",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3219
+    },
+    {
+      "path": "/api/quran/qcf4/page/385.json",
+      "bytes": 20613,
+      "sha256": "46256548cca457eea3f4879b074c5c0de0be737d76c510fee3bcdb035283a60b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2798
+    },
+    {
+      "path": "/api/quran/qcf4/page/386.json",
+      "bytes": 21975,
+      "sha256": "72331a4f7a54e3a081fcca4b2dbf52ce34e33c8bf96338ed62febb182fb00c5d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2813
+    },
+    {
+      "path": "/api/quran/qcf4/page/387.json",
+      "bytes": 25260,
+      "sha256": "4ba224406556451b64ad0e0297ea9e372114b104af27ae827b8cd53648d38de4",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3108
+    },
+    {
+      "path": "/api/quran/qcf4/page/388.json",
+      "bytes": 22999,
+      "sha256": "9d3447b8c3e6517e49e5262d81b046a69a484ef97016825a7d79181191f0005f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2897
+    },
+    {
+      "path": "/api/quran/qcf4/page/389.json",
+      "bytes": 22413,
+      "sha256": "f70000e0e0a5c2dd1bc264c9f080f1e9b2a433c57286ceb71ad3946d030c76f5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2940
+    },
+    {
+      "path": "/api/quran/qcf4/page/390.json",
+      "bytes": 20990,
+      "sha256": "6f5b625655fa3b77f54eb2424cbd1f0cadd2dbb0a697615171e58203a836685d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2720
+    },
+    {
+      "path": "/api/quran/qcf4/page/391.json",
+      "bytes": 22721,
+      "sha256": "88ea2d3519f6571f03aa123f1e0c5357336c036aebfae8fecd8c661190121c1b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2863
+    },
+    {
+      "path": "/api/quran/qcf4/page/392.json",
+      "bytes": 23268,
+      "sha256": "2de2baaf66cd7b99a85a6e434447fa57d157d8994cf3f7a4fc853eb135f7b74b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2971
+    },
+    {
+      "path": "/api/quran/qcf4/page/393.json",
+      "bytes": 23447,
+      "sha256": "f5417823c0d1131abdd4474dcc1f5f592d35ce5e2a45ec37a48e8b6aef1aac17",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2989
+    },
+    {
+      "path": "/api/quran/qcf4/page/394.json",
+      "bytes": 23222,
+      "sha256": "14e4c33aa5f0347ae13e95287e17cc4b13798990552a7bd8312fee9b160dad10",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2880
+    },
+    {
+      "path": "/api/quran/qcf4/page/395.json",
+      "bytes": 24003,
+      "sha256": "a244fe490e463d032cd8ddd5ff0a9d4844ac238c3b90f6f32f51d96e1326ec0e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3051
+    },
+    {
+      "path": "/api/quran/qcf4/page/396.json",
+      "bytes": 22274,
+      "sha256": "e73ebcdcfb43a100789118953a14e8be5b34d23d9f1aa3c2cc9e67a2443a073f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2971
+    },
+    {
+      "path": "/api/quran/qcf4/page/397.json",
+      "bytes": 21655,
+      "sha256": "d95e60872a45ba6674dd30b992b566a333f36cea1b48723567e14060c11c81fa",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2817
+    },
+    {
+      "path": "/api/quran/qcf4/page/398.json",
+      "bytes": 22709,
+      "sha256": "33f8104ee2449e7146ba58212b22d2328eb8fa0c6c2cb9b76ff5d87c94d2bc5d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2902
+    },
+    {
+      "path": "/api/quran/qcf4/page/399.json",
+      "bytes": 21139,
+      "sha256": "ce2b7dc0e33eba7408f15d98526dd625c2fc0328f5160dc13a844cdfcd7ded09",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2743
+    },
+    {
+      "path": "/api/quran/qcf4/page/400.json",
+      "bytes": 19907,
+      "sha256": "6fe0c5ef129420299eb5084a7e2e14c839b5a2dbe3e03f69d004280c22a44ea5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2565
+    },
+    {
+      "path": "/api/quran/qcf4/page/401.json",
+      "bytes": 19654,
+      "sha256": "f2e61f33fe3bf8629d0a4547359447e1b57576d4520d364dad2629c2fcdb977f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2535
+    },
+    {
+      "path": "/api/quran/qcf4/page/402.json",
+      "bytes": 21405,
+      "sha256": "6b3a5f1079d0871a1696b0dce30719b2ab5fd1847c62455e4ce0a9e774c43000",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2760
+    },
+    {
+      "path": "/api/quran/qcf4/page/403.json",
+      "bytes": 23222,
+      "sha256": "cf37840a6bd30170768979105588b85f7e6326e003ae7f37593bf623ab4d2e8c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3023
+    },
+    {
+      "path": "/api/quran/qcf4/page/404.json",
+      "bytes": 20334,
+      "sha256": "ce2f8283a081e1795210cb20804f6d4ba77f03dc85db2ae6e15d5c12974f40e3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2812
+    },
+    {
+      "path": "/api/quran/qcf4/page/405.json",
+      "bytes": 22136,
+      "sha256": "10eb51f88bcf9eb86e10e1478aaf55c1331cbc8d255d04e1a5d999854fdd083c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2845
+    },
+    {
+      "path": "/api/quran/qcf4/page/406.json",
+      "bytes": 21052,
+      "sha256": "e855f07f3a9c40bcf7aef053f4d83c95c100b51d1459f00d62924eadd6a4f38f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2663
+    },
+    {
+      "path": "/api/quran/qcf4/page/407.json",
+      "bytes": 22430,
+      "sha256": "2348567019c7e79c7c887c192387b01097bf24aaebc9c295e528b483393f0ff2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2893
+    },
+    {
+      "path": "/api/quran/qcf4/page/408.json",
+      "bytes": 24376,
+      "sha256": "51e153d6dc4155591276d50f5b083aa557ccca32f35b4e9014e50d423808ccab",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3096
+    },
+    {
+      "path": "/api/quran/qcf4/page/409.json",
+      "bytes": 24840,
+      "sha256": "6bbee9116eed80ba583ba7a67ef83c83be34fd489edfee12a8f31c6a2c802fdf",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3146
+    },
+    {
+      "path": "/api/quran/qcf4/page/410.json",
+      "bytes": 24107,
+      "sha256": "e04ea1f549847e35b4a83e3cf9490b01626db5b19e9405f2cc040867e5b59dae",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3071
+    },
+    {
+      "path": "/api/quran/qcf4/page/411.json",
+      "bytes": 21233,
+      "sha256": "3c8d554ce18d166259249ea8f6fd2e7c2a2d64200bd340d720d15f0b6a6468eb",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2825
+    },
+    {
+      "path": "/api/quran/qcf4/page/412.json",
+      "bytes": 25200,
+      "sha256": "0231d677bb074ed8e73bef9cf7b65ece46b73976f6be1dafca5f76d280e1c5f1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3134
+    },
+    {
+      "path": "/api/quran/qcf4/page/413.json",
+      "bytes": 25395,
+      "sha256": "578a7bd969aa8b74ae1ce8d22cccabe01e4023d02510908fa60aed1a655ac68a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3181
+    },
+    {
+      "path": "/api/quran/qcf4/page/414.json",
+      "bytes": 23793,
+      "sha256": "2644a124901593bcf0480912175319ab84dfff4ebd6ffd13f01f0cbabf374cdb",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2976
+    },
+    {
+      "path": "/api/quran/qcf4/page/415.json",
+      "bytes": 23657,
+      "sha256": "7a837efa2ca43beb02ce17ea15e239c96cf9e10215db6a9a7946812911da1d89",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3124
+    },
+    {
+      "path": "/api/quran/qcf4/page/416.json",
+      "bytes": 22466,
+      "sha256": "b0f4d48d741830ad6740f2b97e970fa29403ba91c85dd743fc084872f7919ba5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2858
+    },
+    {
+      "path": "/api/quran/qcf4/page/417.json",
+      "bytes": 20656,
+      "sha256": "2a54615f07b4d1925d601d44acf831eff3b7537d7a8a220f98b7cb4b95582e20",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2702
+    },
+    {
+      "path": "/api/quran/qcf4/page/418.json",
+      "bytes": 20661,
+      "sha256": "62ed598ac9b55e2069f81dd7522127f6b8369b46108c2582075348c0032cf6a1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2777
+    },
+    {
+      "path": "/api/quran/qcf4/page/419.json",
+      "bytes": 23462,
+      "sha256": "af437f005b7b3991f469e2af46619dc56d6802628b29937009a14cc9ef898f43",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3049
+    },
+    {
+      "path": "/api/quran/qcf4/page/420.json",
+      "bytes": 25322,
+      "sha256": "8a45744e7d68d0ea03dd9d0d6ac18398de8f24bc0fb9fdd5ebf7023881ff569a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3130
+    },
+    {
+      "path": "/api/quran/qcf4/page/421.json",
+      "bytes": 21927,
+      "sha256": "3b29159bd54bf5fb55ff4f3b58426a38f73a094f54e6ff13ec586a15928aa923",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2866
+    },
+    {
+      "path": "/api/quran/qcf4/page/422.json",
+      "bytes": 18311,
+      "sha256": "6cc1deb819d402262685dfbaa8700b538040dbbd8b9092e1e192cdc990224858",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2420
+    },
+    {
+      "path": "/api/quran/qcf4/page/423.json",
+      "bytes": 25462,
+      "sha256": "da9658986eabb7e46fd153b1e9190422c8182ef49339b8263db70dbdb87bf987",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3148
+    },
+    {
+      "path": "/api/quran/qcf4/page/424.json",
+      "bytes": 21767,
+      "sha256": "7b9100936e17f89fc0e447a18729c810b868e6c6fab23e00c91649f67c08b035",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2779
+    },
+    {
+      "path": "/api/quran/qcf4/page/425.json",
+      "bytes": 23895,
+      "sha256": "e445f407976a76ce131eb33c26c7c8919b0a7e7fc2fa5c41790a16d26ebd4011",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2990
+    },
+    {
+      "path": "/api/quran/qcf4/page/426.json",
+      "bytes": 22584,
+      "sha256": "90a0234e2b8974cd4e3debc093bbc9eb4f39fb468673d2a94122ac7bf2d71c0e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2867
+    },
+    {
+      "path": "/api/quran/qcf4/page/427.json",
+      "bytes": 23060,
+      "sha256": "c3835dbff2f5e474d1f0de53bdfe68436712cccdd0288c7fce83ac6b8700fac5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2932
+    },
+    {
+      "path": "/api/quran/qcf4/page/428.json",
+      "bytes": 21161,
+      "sha256": "9673751815fc511f578a188fe50e4be0861ec6592ed8b119a563008ddb8da2f6",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2706
+    },
+    {
+      "path": "/api/quran/qcf4/page/429.json",
+      "bytes": 24615,
+      "sha256": "dcb17bf515763200166901e000f59f62fbbd65ff20c926baa8400dd2ea5b1ac9",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3177
+    },
+    {
+      "path": "/api/quran/qcf4/page/430.json",
+      "bytes": 23843,
+      "sha256": "c087c1e54240d46963c2e0a5a83a29f66e2cdcd2d6b90bb47123dbeba3135727",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3037
+    },
+    {
+      "path": "/api/quran/qcf4/page/431.json",
+      "bytes": 23325,
+      "sha256": "4c94e868a4b952a4df4219f363d9a9ac70577495fd39572579a65e5e27ad6c39",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2955
+    },
+    {
+      "path": "/api/quran/qcf4/page/432.json",
+      "bytes": 23756,
+      "sha256": "1146c27a16e21f3dccae9a4a902ddfc5446545a555228075356b8687b89db2f9",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2964
+    },
+    {
+      "path": "/api/quran/qcf4/page/433.json",
+      "bytes": 25876,
+      "sha256": "26740d3b6abd13722899363c524e116bfbbb3cd8b205c53141dc3d824e067e1d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3226
+    },
+    {
+      "path": "/api/quran/qcf4/page/434.json",
+      "bytes": 23497,
+      "sha256": "235c77965c7c699221345ca6331205fbf2319c43355278df67d6ab6673e78dcb",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3087
+    },
+    {
+      "path": "/api/quran/qcf4/page/435.json",
+      "bytes": 26069,
+      "sha256": "9cf0c9dddd454ec273510a1d3664b20a3045037bf0118cba6c260dd3d4251a09",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3329
+    },
+    {
+      "path": "/api/quran/qcf4/page/436.json",
+      "bytes": 22638,
+      "sha256": "91df93ec9848b0fbbe7819addf9d84b8ca7cc43cf62309cef4fc55ee00ee52c0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2957
+    },
+    {
+      "path": "/api/quran/qcf4/page/437.json",
+      "bytes": 22897,
+      "sha256": "38b0e5ddd8fb001c1a1c1a41e43dccce3af11eb96e8782b7beca5a9e516bd780",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2911
+    },
+    {
+      "path": "/api/quran/qcf4/page/438.json",
+      "bytes": 22465,
+      "sha256": "2422623f0de90b2f31cbf9c0efa0ece4fde7e9a45685f4641914125070f53124",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2880
+    },
+    {
+      "path": "/api/quran/qcf4/page/439.json",
+      "bytes": 25982,
+      "sha256": "87364fd7432a912f8f800dce0ca20fa420e999fbc85eb7f17283eabc1f8d45d1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3223
+    },
+    {
+      "path": "/api/quran/qcf4/page/440.json",
+      "bytes": 20336,
+      "sha256": "70bbfac5076cb26df89c0cf73fc04dbb831cd98d679a7ccd23604a4746c5fac3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2768
+    },
+    {
+      "path": "/api/quran/qcf4/page/441.json",
+      "bytes": 23600,
+      "sha256": "bc0971cdc5ccd44f644bbcdb8628b1883e8670f02f620d01a0b5490bbaa030b3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2985
+    },
+    {
+      "path": "/api/quran/qcf4/page/442.json",
+      "bytes": 23433,
+      "sha256": "4ac910ec5745d6f378a327fe2c44ed3023556fd030276f26e281a706eb622fec",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3014
+    },
+    {
+      "path": "/api/quran/qcf4/page/443.json",
+      "bytes": 25089,
+      "sha256": "7708d3d474e718754284465e49dc212284947fc9d9c2bf87cec7cb7b24728f5c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3112
+    },
+    {
+      "path": "/api/quran/qcf4/page/444.json",
+      "bytes": 22815,
+      "sha256": "44391ad836eecead2d5b7871b0f10e17b770c33bcb3063831bbf5ef47526f0a3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3000
+    },
+    {
+      "path": "/api/quran/qcf4/page/445.json",
+      "bytes": 22101,
+      "sha256": "70ae7cea6ec0bcfb6785c97c20ef1f772171536cb01b772c67de21d75f6638fd",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2832
+    },
+    {
+      "path": "/api/quran/qcf4/page/446.json",
+      "bytes": 24874,
+      "sha256": "c27269ab48056408cc65086b9f05b524bb716f13e58c3f2fa3dfd4571cfdaeb1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3308
+    },
+    {
+      "path": "/api/quran/qcf4/page/447.json",
+      "bytes": 26345,
+      "sha256": "c8c0bd3f1609d12b969882dcd04e81bd04d6136d6dec17a9dadd039a7cd48124",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3304
+    },
+    {
+      "path": "/api/quran/qcf4/page/448.json",
+      "bytes": 24176,
+      "sha256": "a4436d4d44e51a1615e75de607ec2023c17bd2b9e7a2550fb12fd24a2a9ba4dc",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3101
+    },
+    {
+      "path": "/api/quran/qcf4/page/449.json",
+      "bytes": 26347,
+      "sha256": "205dcba5bae981bd1cb72a231058b48aff54e4d1ff8dbcbfb5b1ff0ab8a04815",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3344
+    },
+    {
+      "path": "/api/quran/qcf4/page/450.json",
+      "bytes": 21613,
+      "sha256": "5dddf169c3c9d3c691312cbd354b04fab08480bc273e63c20c7594519dad8ff5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2730
+    },
+    {
+      "path": "/api/quran/qcf4/page/451.json",
+      "bytes": 23724,
+      "sha256": "95c2347a77be917068468772cfad87eb23c7e764aabcd68c6ca3b68f0fab42d0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3022
+    },
+    {
+      "path": "/api/quran/qcf4/page/452.json",
+      "bytes": 24658,
+      "sha256": "a67d6601fd41e175510d751eb3d968c0cae9e174b8bfabd5a4b1ca9562f9c755",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3063
+    },
+    {
+      "path": "/api/quran/qcf4/page/453.json",
+      "bytes": 25379,
+      "sha256": "0297212cd1fa35df1f61c2323bcd8f84f5bf7115b3abb7225e882f9e4339e6aa",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3321
+    },
+    {
+      "path": "/api/quran/qcf4/page/454.json",
+      "bytes": 25773,
+      "sha256": "3c601300916a761a1751b49e35f0c85ae9d45be1019ef7c274d656fa9b13973a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3292
+    },
+    {
+      "path": "/api/quran/qcf4/page/455.json",
+      "bytes": 25284,
+      "sha256": "6790a90141ade716852128349b0ef03f989575135e1b9db1f1b073e3c023f1a6",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3285
+    },
+    {
+      "path": "/api/quran/qcf4/page/456.json",
+      "bytes": 25055,
+      "sha256": "a7945c89fa72c56e1e0c34e5760962ff611e60ab1aa53566d02e1bec2a7047bc",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3211
+    },
+    {
+      "path": "/api/quran/qcf4/page/457.json",
+      "bytes": 27711,
+      "sha256": "6727ffc392a0ee2eb3a0ce7f7a0a52ae05d45edf9a5a7a41d0b225eba469b859",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3409
+    },
+    {
+      "path": "/api/quran/qcf4/page/458.json",
+      "bytes": 21490,
+      "sha256": "d554d10d81be458646332c6cce407cbaf29a186b702f6a0ed445eede5dda16e5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2868
+    },
+    {
+      "path": "/api/quran/qcf4/page/459.json",
+      "bytes": 24942,
+      "sha256": "e87f435c0a8f79ebbdebd761491f79a01235dc8d8adb0002abec8935f58996d4",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3231
+    },
+    {
+      "path": "/api/quran/qcf4/page/460.json",
+      "bytes": 26387,
+      "sha256": "4671141f09acf970c4ee918b10535a642fab3a7b2d86e6c276160ec184872da7",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3261
+    },
+    {
+      "path": "/api/quran/qcf4/page/461.json",
+      "bytes": 24187,
+      "sha256": "78dab0e16efccbd291fd1e261b99fc141e431e8fec268112c457d0000c174d3d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3099
+    },
+    {
+      "path": "/api/quran/qcf4/page/462.json",
+      "bytes": 21888,
+      "sha256": "f6152d099e3eed8e62909fe057ec6e1d36b7f0f8bc7d7dfea130bb25b0164db2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2818
+    },
+    {
+      "path": "/api/quran/qcf4/page/463.json",
+      "bytes": 22418,
+      "sha256": "2e98caa517c13540ad6739266be8f8d3a7a6f59e64eaba454d6ca59621c7c57b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2872
+    },
+    {
+      "path": "/api/quran/qcf4/page/464.json",
+      "bytes": 24065,
+      "sha256": "7ba073bd2dc3743854dc536e141536b2913544f17f48c944ea0dfea587f1f3a5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3054
+    },
+    {
+      "path": "/api/quran/qcf4/page/465.json",
+      "bytes": 21614,
+      "sha256": "b7771dd902ab52451a1f2142028cd4f9bedcd4fb6beaa2a036b8be8e0d47bbab",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2785
+    },
+    {
+      "path": "/api/quran/qcf4/page/466.json",
+      "bytes": 21872,
+      "sha256": "4f7461db282dcc89e0a3d7825b6b2712cfbbad0887a50bdf3c64ff8bd32fffe3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2827
+    },
+    {
+      "path": "/api/quran/qcf4/page/467.json",
+      "bytes": 19880,
+      "sha256": "7e4b8de5b1e672623baee1a2ef3ba307d67a15f74753c44ad5b86b398c6545f8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2728
+    },
+    {
+      "path": "/api/quran/qcf4/page/468.json",
+      "bytes": 21953,
+      "sha256": "eb6574d1b39e4834de95fbcc526fa474c8ee40f696b2281ae71769603adab691",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2857
+    },
+    {
+      "path": "/api/quran/qcf4/page/469.json",
+      "bytes": 22103,
+      "sha256": "7721e2d3dbae485a58c1eb3176a9b45f78c43713e2b3a2e8b2bbb317ba677b25",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2893
+    },
+    {
+      "path": "/api/quran/qcf4/page/470.json",
+      "bytes": 24488,
+      "sha256": "190e77c59fcbb810970f7d88ea517efd0da185119020caeae0281736ae0fb903",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3009
+    },
+    {
+      "path": "/api/quran/qcf4/page/471.json",
+      "bytes": 22029,
+      "sha256": "1789684d0b28cba920041c74c0f05e3211ade41b4bee842b4ed07a8530efe26c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2854
+    },
+    {
+      "path": "/api/quran/qcf4/page/472.json",
+      "bytes": 22182,
+      "sha256": "15d7b7db3b68e4454d24ec7f40eb0f256dfa6395e4f0c0e125d4dfebf0d54b9f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2768
+    },
+    {
+      "path": "/api/quran/qcf4/page/473.json",
+      "bytes": 19603,
+      "sha256": "61c4033f22008329f6d83d28437f063c986886f944570feaa7c4ca1305955bb3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2583
+    },
+    {
+      "path": "/api/quran/qcf4/page/474.json",
+      "bytes": 20947,
+      "sha256": "0b48f5ba7c527916a0c705e43c2ad4fd5e6d33663ff53928d23a667e8d55a06b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2665
+    },
+    {
+      "path": "/api/quran/qcf4/page/475.json",
+      "bytes": 23128,
+      "sha256": "ad386bfac5507bab8c51a0e8d8c6e02f0860b3fc9c317e3e0174021362bd359f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2950
+    },
+    {
+      "path": "/api/quran/qcf4/page/476.json",
+      "bytes": 22435,
+      "sha256": "65dac866293e548fbbd04550a3edb8a9f0324c6210c4c1b91a470633becce450",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2846
+    },
+    {
+      "path": "/api/quran/qcf4/page/477.json",
+      "bytes": 21128,
+      "sha256": "c9a67f8ef82e1917fd7e99717a51dc6c510e0b150df909945cd20fb6c0e7b70c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2860
+    },
+    {
+      "path": "/api/quran/qcf4/page/478.json",
+      "bytes": 23674,
+      "sha256": "ba31bfd70c76c92087333dee0c4f426f2c7fffd246a191b442de864c99fac8e4",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3064
+    },
+    {
+      "path": "/api/quran/qcf4/page/479.json",
+      "bytes": 23824,
+      "sha256": "9a4603bedddccb25f911f96bc70ce50925e921fcc3499ea43b453c1bd8785442",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2981
+    },
+    {
+      "path": "/api/quran/qcf4/page/480.json",
+      "bytes": 21815,
+      "sha256": "be0738c4928f5e26b2ad263e8e9634ff270e298b47f3a410b0968d72463b505c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2799
+    },
+    {
+      "path": "/api/quran/qcf4/page/481.json",
+      "bytes": 25301,
+      "sha256": "601b800bdfc84127d5ad152b4be7afaacebb245de58b2e7c14dcc080508ae21b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3233
+    },
+    {
+      "path": "/api/quran/qcf4/page/482.json",
+      "bytes": 24976,
+      "sha256": "666ab96a093ae05f39eae2b5505ec8a4b2ec4428732fbfd2c368fd1092a22ed0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3153
+    },
+    {
+      "path": "/api/quran/qcf4/page/483.json",
+      "bytes": 22461,
+      "sha256": "c655080f62c7822dda4828038b8d8d11e9ee94c3b6b73deed3cca866c2c704f2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2911
+    },
+    {
+      "path": "/api/quran/qcf4/page/484.json",
+      "bytes": 23197,
+      "sha256": "90760d01d59e46b7cf5d01490321b9107530069ea935272a334833337cd9b225",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2959
+    },
+    {
+      "path": "/api/quran/qcf4/page/485.json",
+      "bytes": 22226,
+      "sha256": "1aa2a48f65143549cabaacc4b48ae90a6c327ec55e92da5561c25b5dc3cb3e94",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2802
+    },
+    {
+      "path": "/api/quran/qcf4/page/486.json",
+      "bytes": 25462,
+      "sha256": "a395b98a8326b7cacaee182de4a320f12d51cb3df459083dc2251c50b0d4ee62",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3185
+    },
+    {
+      "path": "/api/quran/qcf4/page/487.json",
+      "bytes": 26234,
+      "sha256": "064343223e8de5b7f9a6f075f0a13f695f44e135510a2f26df9eb4611a89068b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3310
+    },
+    {
+      "path": "/api/quran/qcf4/page/488.json",
+      "bytes": 24117,
+      "sha256": "39876a78988151fd2e930b18630300122b65282bcc76bea87221d23ad2985680",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3064
+    },
+    {
+      "path": "/api/quran/qcf4/page/489.json",
+      "bytes": 20181,
+      "sha256": "8b7936261d8d245ea2d0c1587710e8b10bec501060de70ba8fa54859b0ed2b7b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2707
+    },
+    {
+      "path": "/api/quran/qcf4/page/490.json",
+      "bytes": 23336,
+      "sha256": "c81972ba33c1d66d0f302746671726180da262a1f2a2cd9a56f224934d909964",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3032
+    },
+    {
+      "path": "/api/quran/qcf4/page/491.json",
+      "bytes": 23913,
+      "sha256": "c4c8e5f0d0f783225f6806c91e310c93059adb931bbb568289302afef598b117",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3078
+    },
+    {
+      "path": "/api/quran/qcf4/page/492.json",
+      "bytes": 22904,
+      "sha256": "ea313b9ae8c3cd162ae8092711c511af475472b3f38927eba9ef835e8440e7b1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3002
+    },
+    {
+      "path": "/api/quran/qcf4/page/493.json",
+      "bytes": 23263,
+      "sha256": "fab9d1c5181c9d64aa3d883f988c581f80d2965c1dc9da5dd1a9ce14d5a169a2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3022
+    },
+    {
+      "path": "/api/quran/qcf4/page/494.json",
+      "bytes": 21519,
+      "sha256": "d8af528b63dcb7b07f70d5fdc135ed03f57ff80671cf74b5e9a5fa8c9e465fd0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2854
+    },
+    {
+      "path": "/api/quran/qcf4/page/495.json",
+      "bytes": 24150,
+      "sha256": "9062f6850fe0c41a27064a1ad0e1a76cdd14ca858a66c43e8658e044970df11a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3093
+    },
+    {
+      "path": "/api/quran/qcf4/page/496.json",
+      "bytes": 21607,
+      "sha256": "d175b4a1b1b6e5b9b4cb52348e1ba6772be74806f8816d4c217fa7ddf57dc1b3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2893
+    },
+    {
+      "path": "/api/quran/qcf4/page/497.json",
+      "bytes": 24863,
+      "sha256": "f57a946e729ea70afe7f858963151195feef24cbbdf5cf9745b5e92ea7e0a087",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3181
+    },
+    {
+      "path": "/api/quran/qcf4/page/498.json",
+      "bytes": 20248,
+      "sha256": "4a987af0160dfcff13a152802a4bd3c113c2c60601d91dd1073debd81b5e2e14",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2662
+    },
+    {
+      "path": "/api/quran/qcf4/page/499.json",
+      "bytes": 26060,
+      "sha256": "21987f045fee987884b1bb6459545804a16136d710e53f0b44f61f3477d4cab6",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3390
+    },
+    {
+      "path": "/api/quran/qcf4/page/500.json",
+      "bytes": 22569,
+      "sha256": "9c4e6dcc8494381c541f92550630f723b8ffdc0bfe5b989a9278058602c28d3e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2956
+    },
+    {
+      "path": "/api/quran/qcf4/page/501.json",
+      "bytes": 28037,
+      "sha256": "6dced1d781e4e6ef5f057aaeaf740c066b848d1a7d17ccf92a8bc9f6a203aafa",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3462
+    },
+    {
+      "path": "/api/quran/qcf4/page/502.json",
+      "bytes": 22800,
+      "sha256": "d47ffe480b21c9259d1e1c5fc596d724879c79d8fc49097abcd3417596db2448",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3017
+    },
+    {
+      "path": "/api/quran/qcf4/page/503.json",
+      "bytes": 26438,
+      "sha256": "58d8b26d68354c898e4c7c06fb393c96c0d45b4b1ea293ab147fb4768182d0f3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3316
+    },
+    {
+      "path": "/api/quran/qcf4/page/504.json",
+      "bytes": 24851,
+      "sha256": "25c38971a2c6765dfdc2fef19b203503b1074a46b0a9d005b9b8ddacdff117a6",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3175
+    },
+    {
+      "path": "/api/quran/qcf4/page/505.json",
+      "bytes": 24711,
+      "sha256": "eece6f5cf6775f8c74be4b5ae7c5c49d4e3d0a2fb686bb3e7c82b6432b0f26c3",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3143
+    },
+    {
+      "path": "/api/quran/qcf4/page/506.json",
+      "bytes": 23540,
+      "sha256": "a0651732898b8657a6b9caa36093df9c8d66a551842534c64442b1d632378e6d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2991
+    },
+    {
+      "path": "/api/quran/qcf4/page/507.json",
+      "bytes": 25320,
+      "sha256": "78c66e7a7eeed25e7979f63d005ca55bac025e4b1ffd9cc6c91a7cd2ffa07e49",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3210
+    },
+    {
+      "path": "/api/quran/qcf4/page/508.json",
+      "bytes": 26440,
+      "sha256": "14196c5959a5c090f741dcd070ad989fb029b74dd45c72636d2df3d4408cb72c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3308
+    },
+    {
+      "path": "/api/quran/qcf4/page/509.json",
+      "bytes": 21837,
+      "sha256": "bf5292967bcc63be4308f5645a423494c4bd7bf8b85fdcada1a7e442cc240762",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2779
+    },
+    {
+      "path": "/api/quran/qcf4/page/510.json",
+      "bytes": 22664,
+      "sha256": "8232022b4cb390d3837a03ef990588fb423a7cd09fad5a0b21fbb01f34c3b6f5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2869
+    },
+    {
+      "path": "/api/quran/qcf4/page/511.json",
+      "bytes": 19257,
+      "sha256": "b262b3267ed5c7c226dae8d97d2addbb94b363cb9c4aaeed91f6d5b35cee2a31",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2599
+    },
+    {
+      "path": "/api/quran/qcf4/page/512.json",
+      "bytes": 23478,
+      "sha256": "506cf42f85434afccbaaf8a7ec99f5c78cd409ff014231f62f04f83f2243130f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2963
+    },
+    {
+      "path": "/api/quran/qcf4/page/513.json",
+      "bytes": 24066,
+      "sha256": "85fea9e0e22d2fed0113664aa4fb39f2dcfe99b27ab07d3cf8d0e9b33f6d3c90",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3066
+    },
+    {
+      "path": "/api/quran/qcf4/page/514.json",
+      "bytes": 22277,
+      "sha256": "acac33fe05517f9b4e42cb70efee3e626d511663573f54351e049dc62c407c41",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2850
+    },
+    {
+      "path": "/api/quran/qcf4/page/515.json",
+      "bytes": 20837,
+      "sha256": "f61e1856595d2a91b5006f9ba465200aa66e9af3856695b8f7ccfad7a9bb7f65",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2794
+    },
+    {
+      "path": "/api/quran/qcf4/page/516.json",
+      "bytes": 24781,
+      "sha256": "bcc6202c6607d830ac247d9bbfaa8f6543c092e8a8e1b2ae945699e3fbdd4046",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3121
+    },
+    {
+      "path": "/api/quran/qcf4/page/517.json",
+      "bytes": 24681,
+      "sha256": "83138952481b76aa2f2fb1bdfa4183d8d7b0f28e279d293f395a67169208425d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3104
+    },
+    {
+      "path": "/api/quran/qcf4/page/518.json",
+      "bytes": 22427,
+      "sha256": "7cd956faf7c1fb724c52aef625037afdc53eb0ce9ee7cd3c6c248304e64c609e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2968
+    },
+    {
+      "path": "/api/quran/qcf4/page/519.json",
+      "bytes": 28206,
+      "sha256": "65808f3654a2e881d8a54b834f1c65dec1c8019f743c8bd78682e5007a1121ab",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3498
+    },
+    {
+      "path": "/api/quran/qcf4/page/520.json",
+      "bytes": 21782,
+      "sha256": "ac6e04aa5e36daf86fa1776e71d6280d8089c7dc95d52abeb16095704f54807e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2935
+    },
+    {
+      "path": "/api/quran/qcf4/page/521.json",
+      "bytes": 26072,
+      "sha256": "58ead050e2c7a2485d80818cebaad172e08ce51d514767d260578069315ef91b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3380
+    },
+    {
+      "path": "/api/quran/qcf4/page/522.json",
+      "bytes": 26891,
+      "sha256": "a5e41b90c9b9df904feb0ae9db5357468dd57bd16a2d4c545a5348b3ad90b525",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3369
+    },
+    {
+      "path": "/api/quran/qcf4/page/523.json",
+      "bytes": 22746,
+      "sha256": "3ccfbb65d9309ddac0fb4559400d1c98132ad321538a4a2c7fd42437e684c73f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3050
+    },
+    {
+      "path": "/api/quran/qcf4/page/524.json",
+      "bytes": 24432,
+      "sha256": "49d9af7ac875cec0259c6997377506fd7181c0961656872ef5acd71b1b4d227a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3149
+    },
+    {
+      "path": "/api/quran/qcf4/page/525.json",
+      "bytes": 24811,
+      "sha256": "81ff525ef02f936daf10ca54d7615922a50e858da7463ab5498f90eff5df6550",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3147
+    },
+    {
+      "path": "/api/quran/qcf4/page/526.json",
+      "bytes": 26972,
+      "sha256": "ee2cdff60045b092458d815abc4ba7d3e38c87bb450ea2e1893552afcbe12cdc",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3463
+    },
+    {
+      "path": "/api/quran/qcf4/page/527.json",
+      "bytes": 27489,
+      "sha256": "c054659b2880ad81ff6b582eff8bc0a488026401a171c75b41f5c6f91e7b1d85",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3399
+    },
+    {
+      "path": "/api/quran/qcf4/page/528.json",
+      "bytes": 22168,
+      "sha256": "b2d1c9b04429c56bf8df38fc6d96aa55dbe5cd01025bb22a038cd948f980aad2",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3013
+    },
+    {
+      "path": "/api/quran/qcf4/page/529.json",
+      "bytes": 26074,
+      "sha256": "77e77ed87500da2fd5743a573a5d0396127c4a1eb5749b897def573304c87593",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3299
+    },
+    {
+      "path": "/api/quran/qcf4/page/530.json",
+      "bytes": 25697,
+      "sha256": "fe914351ea466dee2c7f0f7b7b32b9bf8f4266a3c17aebb4bc48a0dd2147f588",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3276
+    },
+    {
+      "path": "/api/quran/qcf4/page/531.json",
+      "bytes": 20513,
+      "sha256": "1e75ac7c5b1327b9d5b0e325d68eb9d7d7bd325b94edefe9058fcedf1f025402",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2728
+    },
+    {
+      "path": "/api/quran/qcf4/page/532.json",
+      "bytes": 24350,
+      "sha256": "462a89b450310b54243ea9e33f75e7518d8fa670f29df20f2d69111cb5ddb2e7",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2973
+    },
+    {
+      "path": "/api/quran/qcf4/page/533.json",
+      "bytes": 24162,
+      "sha256": "c95adbaa46fdf3031d439ec2f9a95413a1adb6e2480aad391aad4cc8acc2b5e9",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2811
+    },
+    {
+      "path": "/api/quran/qcf4/page/534.json",
+      "bytes": 19563,
+      "sha256": "2cf0aae1647140257ace4caee028088ec1c3516ff1dce5071f4925ef1d1015cf",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2613
+    },
+    {
+      "path": "/api/quran/qcf4/page/535.json",
+      "bytes": 25380,
+      "sha256": "99bec9662d08c58559c8c4919dd32eb5390c4a6f9228706f79af3f6bf32b0d77",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3189
+    },
+    {
+      "path": "/api/quran/qcf4/page/536.json",
+      "bytes": 24402,
+      "sha256": "883d85214b6da0c719f670045c761f0624afadadb73b540932fffdda559e03da",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3073
+    },
+    {
+      "path": "/api/quran/qcf4/page/537.json",
+      "bytes": 22832,
+      "sha256": "bcaae359c1b31dc86fb3113b99caddd9193019466b05b2b9bb1738eee370d2c8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3023
+    },
+    {
+      "path": "/api/quran/qcf4/page/538.json",
+      "bytes": 26170,
+      "sha256": "41ae043133d98f8e79435cd42ffe0732f9755312b804b931d202995159ebbe83",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3212
+    },
+    {
+      "path": "/api/quran/qcf4/page/539.json",
+      "bytes": 24112,
+      "sha256": "cdb1eca8391b417de91c45e125518cdc609896893badcbf12a6b45d056db510c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3109
+    },
+    {
+      "path": "/api/quran/qcf4/page/540.json",
+      "bytes": 22903,
+      "sha256": "fbc71e3036f44af921447edd9fa96f745831784760b12165b5d5e431ca2aa0a4",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2966
+    },
+    {
+      "path": "/api/quran/qcf4/page/541.json",
+      "bytes": 21603,
+      "sha256": "a73bb9046001450248fa232ad87ffad05661ea916705933b642ed59f06f3a14d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2792
+    },
+    {
+      "path": "/api/quran/qcf4/page/542.json",
+      "bytes": 21428,
+      "sha256": "e54df16016d3efe5c31ff82dd7e3441bf5ea2659e12bc62a05894c54febcd28f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2836
+    },
+    {
+      "path": "/api/quran/qcf4/page/543.json",
+      "bytes": 25728,
+      "sha256": "1bc0f02f6e1063d12514170a8177fc099c01659bb054d4881c83bd59f5bad08f",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3153
+    },
+    {
+      "path": "/api/quran/qcf4/page/544.json",
+      "bytes": 26382,
+      "sha256": "bdebb237dfa1187e060232699e7864c3c01a526b536b22692840aa9b07e6480c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3281
+    },
+    {
+      "path": "/api/quran/qcf4/page/545.json",
+      "bytes": 20458,
+      "sha256": "b614877e2d49de66a2a620e25319c3cc8ef66402805cfcce83461907d887a243",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2777
+    },
+    {
+      "path": "/api/quran/qcf4/page/546.json",
+      "bytes": 23356,
+      "sha256": "7daf7c0b56b118c68c08f489352959144dd7f33f49824843c3977b887f1282f7",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2986
+    },
+    {
+      "path": "/api/quran/qcf4/page/547.json",
+      "bytes": 22799,
+      "sha256": "67a5d9839e2752dc9503ad857146eaa24c98a09a68eb3e5c404565adaaebbaad",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2892
+    },
+    {
+      "path": "/api/quran/qcf4/page/548.json",
+      "bytes": 20318,
+      "sha256": "a03b65f6d3cceac03731b32bc9d4e5ab3bb9b7515a68517b8c6ea0166a2e8250",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2639
+    },
+    {
+      "path": "/api/quran/qcf4/page/549.json",
+      "bytes": 24266,
+      "sha256": "79f87d0011c4089111a6cdec9e4bee2ce851fb3bc5f75976f57924f6670d03a7",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3146
+    },
+    {
+      "path": "/api/quran/qcf4/page/550.json",
+      "bytes": 26339,
+      "sha256": "af65762e85a4d7b14c97538c710afa29c84e0d0947a1cf38d2b468c00407bdee",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3286
+    },
+    {
+      "path": "/api/quran/qcf4/page/551.json",
+      "bytes": 21279,
+      "sha256": "99bd85045976cd060669c4175dc145e0a92064282a0502336c155271c0e0a446",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2823
+    },
+    {
+      "path": "/api/quran/qcf4/page/552.json",
+      "bytes": 27673,
+      "sha256": "3333d22187a354030a1779719d3505871aba17493229b340516afc7e622b239b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3478
+    },
+    {
+      "path": "/api/quran/qcf4/page/553.json",
+      "bytes": 21195,
+      "sha256": "bacf342bfcf092d1bec1256ef140cf7b96448e8b8ba8b7f0afa7978f7f1c4e95",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2798
+    },
+    {
+      "path": "/api/quran/qcf4/page/554.json",
+      "bytes": 21569,
+      "sha256": "30bd7588e7af30a25364553f23e8b5b5b6ce685a7a5047c3c4f6adae92d6eb43",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2940
+    },
+    {
+      "path": "/api/quran/qcf4/page/555.json",
+      "bytes": 20667,
+      "sha256": "89c670bcf8cb752adfe20cb9f2c43f26b35d9b3c7f23ee36ce6d3448aab62bd8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2647
+    },
+    {
+      "path": "/api/quran/qcf4/page/556.json",
+      "bytes": 24144,
+      "sha256": "9e45d004451e8ea2ce13ac94bb55ee387aba989c4a472385585927c29f243c89",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3144
+    },
+    {
+      "path": "/api/quran/qcf4/page/557.json",
+      "bytes": 19191,
+      "sha256": "68f1da3918d2949ebef9a0c206c6d1c90efe969567757187f237c514e7cf652b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2528
+    },
+    {
+      "path": "/api/quran/qcf4/page/558.json",
+      "bytes": 23334,
+      "sha256": "79eb83b505473de686beea04604ca532442ec1e111b25753abf05af787558795",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3081
+    },
+    {
+      "path": "/api/quran/qcf4/page/559.json",
+      "bytes": 26346,
+      "sha256": "d747768257007ee306a9a77550afaee07b602e09b2f72cfbbde60fbc0428295a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3324
+    },
+    {
+      "path": "/api/quran/qcf4/page/560.json",
+      "bytes": 22210,
+      "sha256": "77070637b58884ecde7c2c86bde5b0377951d46631fdd217864165ffe4492003",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2905
+    },
+    {
+      "path": "/api/quran/qcf4/page/561.json",
+      "bytes": 21402,
+      "sha256": "530594e511f1c96491d793c5738e2c6b3a3a6b7be8935c0e3853a83762451a28",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2780
+    },
+    {
+      "path": "/api/quran/qcf4/page/562.json",
+      "bytes": 23766,
+      "sha256": "0162501ea60458d1a57077d5b739aaad5ccb66d61411920e6ea1e2bd9e978e1d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3099
+    },
+    {
+      "path": "/api/quran/qcf4/page/563.json",
+      "bytes": 26873,
+      "sha256": "ab9ecd18b1ddfadbfba3f0a2ff8a1659e07234362ce1f92b1708801dbfb3ca62",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3363
+    },
+    {
+      "path": "/api/quran/qcf4/page/564.json",
+      "bytes": 23561,
+      "sha256": "16d3765b3cf7c4f79f8a9a8e22f9774db8447ceb2f1808696bdc56acf5e223f1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3145
+    },
+    {
+      "path": "/api/quran/qcf4/page/565.json",
+      "bytes": 28343,
+      "sha256": "62a26a012e31e70350846a564d2fd1b3a9c675c464b5ba596d69b7cc93ec3d09",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3515
+    },
+    {
+      "path": "/api/quran/qcf4/page/566.json",
+      "bytes": 23438,
+      "sha256": "89b6fe1887ce54e4ca5a82b4bec5ec90c13a9b7ab81baf28744d7b6945fd5c11",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3195
+    },
+    {
+      "path": "/api/quran/qcf4/page/567.json",
+      "bytes": 27693,
+      "sha256": "caf8a090cd6fec325e8844b9de246c7591a8d52a323f31843d4ef594efbf1e41",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3517
+    },
+    {
+      "path": "/api/quran/qcf4/page/568.json",
+      "bytes": 23713,
+      "sha256": "55cfa78c6535209cc18d122122b1d35fd09da4104f4bd006ea9cbea88ab4ee54",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3144
+    },
+    {
+      "path": "/api/quran/qcf4/page/569.json",
+      "bytes": 28016,
+      "sha256": "56a7ef0f5f7cabaca8d9f1b5a57ed04f4a77dfd2f9357302c7988419d1ce18bb",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3526
+    },
+    {
+      "path": "/api/quran/qcf4/page/570.json",
+      "bytes": 22422,
+      "sha256": "5f231f4510f64efe855acc0b18c9523e17ed35936ca1d82cfb89a1dbe5ead3ce",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2991
+    },
+    {
+      "path": "/api/quran/qcf4/page/571.json",
+      "bytes": 25771,
+      "sha256": "7b6a9f9e1e1436765199cc3fa8efe2d2113c35c684a8a4207b18ff5f831c5adc",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3183
+    },
+    {
+      "path": "/api/quran/qcf4/page/572.json",
+      "bytes": 24544,
+      "sha256": "2b79e3e0f8cc6aa0d61a9dffff198d9b37632e0e2702b5e7948940f4c2f9dc58",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3073
+    },
+    {
+      "path": "/api/quran/qcf4/page/573.json",
+      "bytes": 26631,
+      "sha256": "d5afbebfdc97a54058815ad5c0e12902e1f3d720b4b4f76127f5beb93d8b3ab1",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3253
+    },
+    {
+      "path": "/api/quran/qcf4/page/574.json",
+      "bytes": 23225,
+      "sha256": "fbabdb056a8aa19aabc21024de906646e8fff54eb0b5c4db9503d5f700d82566",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3089
+    },
+    {
+      "path": "/api/quran/qcf4/page/575.json",
+      "bytes": 25405,
+      "sha256": "1ef45a5dadb58595d825b33879dc52b128cf713d33c57a7ecd9dfb1ce19963a5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3348
+    },
+    {
+      "path": "/api/quran/qcf4/page/576.json",
+      "bytes": 29769,
+      "sha256": "9c7ed2c31c0f67171a77e4822c9ed627a9029e0cd3afa57c310474b89a243d76",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3620
+    },
+    {
+      "path": "/api/quran/qcf4/page/577.json",
+      "bytes": 25497,
+      "sha256": "d49891f5a19cf6ef467b7b377fc6dad22d4e453e41bfdcf970e733d6a4f794ad",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3306
+    },
+    {
+      "path": "/api/quran/qcf4/page/578.json",
+      "bytes": 25132,
+      "sha256": "b8b8f48bc6fba8a2cdf13a9ca85f1f154132976c99ada55730a334fb4d6f8e8d",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3266
+    },
+    {
+      "path": "/api/quran/qcf4/page/579.json",
+      "bytes": 27402,
+      "sha256": "11959f6229c040144292c3419d57ed010ac14595220ffdfaaeeeeb9a2294da7a",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3489
+    },
+    {
+      "path": "/api/quran/qcf4/page/580.json",
+      "bytes": 22109,
+      "sha256": "8c786f134580131680e66c458603b7ff06f0984824bac121cbfd15f20413e1c0",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2985
+    },
+    {
+      "path": "/api/quran/qcf4/page/581.json",
+      "bytes": 25926,
+      "sha256": "c0cd4a1447a40f103b9642d1e8a291628eba36735b8aee1d9288d5580590ac96",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3200
+    },
+    {
+      "path": "/api/quran/qcf4/page/582.json",
+      "bytes": 22374,
+      "sha256": "e1413eda78a812b6302ccc7131dd8307462dca76099811373921681a5e3cedf7",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2930
+    },
+    {
+      "path": "/api/quran/qcf4/page/583.json",
+      "bytes": 24147,
+      "sha256": "25c9f13f53e8b47ceaf08cbd07f3a3c8896d3b28596666b27d1c613af7c870ec",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3260
+    },
+    {
+      "path": "/api/quran/qcf4/page/584.json",
+      "bytes": 25569,
+      "sha256": "3d73287565c3b58449742c2927f9d8aa2a071250bb4505dfe2ed0c1f25a52149",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3255
+    },
+    {
+      "path": "/api/quran/qcf4/page/585.json",
+      "bytes": 27282,
+      "sha256": "5b073ae7a18d37f95f48a148dcc183f164c07bb8f4468ded220cd490febeda00",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3446
+    },
+    {
+      "path": "/api/quran/qcf4/page/586.json",
+      "bytes": 23311,
+      "sha256": "a60dac1bf866fdbc11fcace1c298d451a10ea0638df823e6bd291439168a253e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3021
+    },
+    {
+      "path": "/api/quran/qcf4/page/587.json",
+      "bytes": 20644,
+      "sha256": "3c43ade9cd30fe6243e7d06b71439824a7514c94da2160de9f83b309073fb665",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2745
+    },
+    {
+      "path": "/api/quran/qcf4/page/588.json",
+      "bytes": 26811,
+      "sha256": "f6a8e9c57534c31398f43259048da471c74ab4285370eaf3a76d3d192c737d1c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3340
+    },
+    {
+      "path": "/api/quran/qcf4/page/589.json",
+      "bytes": 23357,
+      "sha256": "9f02b6715087889d56309fe3dd5575bed4e4f8e1d62c4447547bfb2796082f8c",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3109
+    },
+    {
+      "path": "/api/quran/qcf4/page/590.json",
+      "bytes": 23460,
+      "sha256": "213ec2d7bce28d3f105a1c608c41c7e5647a5ef5aca33118ebbaecfcfd213e59",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3093
+    },
+    {
+      "path": "/api/quran/qcf4/page/591.json",
+      "bytes": 21117,
+      "sha256": "73c3f7523a3b488326dbc87f3d2c8d88886c1a7bef2d49c7543c94f868317d81",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2816
+    },
+    {
+      "path": "/api/quran/qcf4/page/592.json",
+      "bytes": 23603,
+      "sha256": "b9b9423a4837c85d2018ac04473801fd4d6475ff062599f3493f8a772d0b9fa7",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3123
+    },
+    {
+      "path": "/api/quran/qcf4/page/593.json",
+      "bytes": 23671,
+      "sha256": "77087a8b013ce0122b09841fe5ae6b48decb9a0bdceeca557b3df704e91b93d5",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 3077
+    },
+    {
+      "path": "/api/quran/qcf4/page/594.json",
+      "bytes": 22265,
+      "sha256": "fc85808df271dfebcafde44432cae397558cbeac672c6ba47fd07a6f76d279dd",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2977
+    },
+    {
+      "path": "/api/quran/qcf4/page/595.json",
+      "bytes": 19933,
+      "sha256": "111cf1c7aa5d24a7b0cc6e83cd00f790b4bc15b79c181a67655f757fba5fa733",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2655
+    },
+    {
+      "path": "/api/quran/qcf4/page/596.json",
+      "bytes": 19855,
+      "sha256": "1b79e309b8f0ae224b6ad27c49cd531cf00d8b442b2727cdb8f318033bf8d802",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2673
+    },
+    {
+      "path": "/api/quran/qcf4/page/597.json",
+      "bytes": 21126,
+      "sha256": "94aef55d5815426ce9a9339061f169debf2b8253880b326e7bb3c46e689ebd9e",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2764
+    },
+    {
+      "path": "/api/quran/qcf4/page/598.json",
+      "bytes": 21036,
+      "sha256": "4f9905f11ea8c0dc9dd01b4e4b6841e14951928b0e2de22390e224d3ea0ce4cc",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2838
+    },
+    {
+      "path": "/api/quran/qcf4/page/599.json",
+      "bytes": 19074,
+      "sha256": "22622ded4bc21279197f1bb62b4a21233d5e25e53fb23c24f6e86a8e6058ae29",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2588
+    },
+    {
+      "path": "/api/quran/qcf4/page/600.json",
+      "bytes": 20284,
+      "sha256": "4a3c8ef017746537a27283486194a0436e79424b524dba8fcae0747b2fbef85b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2652
+    },
+    {
+      "path": "/api/quran/qcf4/page/601.json",
+      "bytes": 15830,
+      "sha256": "441f6fdb7cae857fd45a1aa2a89c79fff96004f8185362a511adbd932397f339",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2199
+    },
+    {
+      "path": "/api/quran/qcf4/page/602.json",
+      "bytes": 12479,
+      "sha256": "e39b7c5f28219d864481cae098a99e1a6a452c5a556168cb97356c31aeb9ef0b",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 1840
+    },
+    {
+      "path": "/api/quran/qcf4/page/603.json",
+      "bytes": 14901,
+      "sha256": "d377547d4c74fd61259c0bca8e2e58c1197b4bfdb8fcfdf5df11cf1c649817ac",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 2035
+    },
+    {
+      "path": "/api/quran/qcf4/page/604.json",
+      "bytes": 13370,
+      "sha256": "1558de7bfc7f28f180b6a115c5616f8810fc7b43aeaff1173de8782ae9440ad8",
+      "source": "bundled:single-tajweed-v362",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 1757
+    },
+    {
+      "path": "/api/quran/reciters",
+      "bytes": 321,
+      "sha256": "1b3fb0c0e1d6a2fd2fdf189ee78212636307bf445da1b3092c048e667cf6a82e",
+      "source": "https://munibin.com/api/quran/reciters",
+      "required": false,
+      "storageEncoding": "identity",
+      "storedBytes": 321
+    },
+    {
+      "path": "/manus-storage/alfiyya-ibn-malik_461b21d8.json",
+      "bytes": 1128098,
+      "sha256": "99ce86f58dc0ce7f7ab73c2a0ad18a3b5290830abe8c2620b9c5641239ec6523",
+      "source": "https://munibin.com/manus-storage/alfiyya-ibn-malik_461b21d8.json",
+      "required": false,
+      "storageEncoding": "gzip",
+      "storedBytes": 105569
+    },
+    {
+      "path": "/manus-storage/bulugh-al-maram_f2589c53.json",
+      "bytes": 1837870,
+      "sha256": "cd0f3119b616f70ef172241d8c8a1cee38d49bb61b23a067cbfd04b3c229d3fb",
+      "source": "https://munibin.com/manus-storage/bulugh-al-maram_f2589c53.json",
+      "required": false,
+      "storageEncoding": "gzip",
+      "storedBytes": 187094
+    },
+    {
+      "path": "/manus-storage/quran-tanzil-simple-search-1.1_d298971c.txt",
+      "bytes": 1338090,
+      "sha256": "f3268cfe7a400add8a8024fe23368d66f58cc8baa51773fe94e323625c66344b",
+      "source": "https://munibin.com/manus-storage/quran-tanzil-simple-search-1.1_d298971c.txt",
+      "required": true,
+      "storageEncoding": "gzip",
+      "storedBytes": 272557
+    },
+    {
+      "path": "/manus-storage/zad-al-mustaqni_6a7513f5.json",
+      "bytes": 844923,
+      "sha256": "80ebcdadddea58996a4a4ad828b818a35e89c42046503d138dbc77613b8fd520",
+      "source": "https://munibin.com/manus-storage/zad-al-mustaqni_6a7513f5.json",
+      "required": false,
+      "storageEncoding": "gzip",
+      "storedBytes": 166252
+    }
+  ],
+  "storedTotalBytes": 4712599,
+  "storageRevision": "v399"
+}

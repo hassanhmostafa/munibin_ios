@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Private pages - no indexing needed
+Disallow: /account
+Disallow: /wird/
+Disallow: /quiz/
+Disallow: /matn-quiz/
+Disallow: /verify-email
+Disallow: /reset-password
+Disallow: /check-email
+Disallow: /404
+
+Sitemap: https://munibin.com/sitemap.xml

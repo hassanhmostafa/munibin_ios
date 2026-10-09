@@ -1,0 +1,152 @@
+{
+  "id": "com.motoonai",
+  "name": "منيبين | Munibin",
+  "short_name": "منيبين",
+  "description": "منيبين — اقرأ واحفظ وراجع المتون، واستمع إلى القرآن، وتابع الأذكار ومواقيت الصلاة.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "background_color": "#fdf8f0",
+  "theme_color": "#92400e",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": [
+    "education",
+    "books"
+  ],
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.motoonai.twa",
+      "url": "https://play.google.com/store/apps/details?id=com.motoonai.twa"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/manus-storage/ss1-home_fad5ab6e.png",
+      "sizes": "1125x2286",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "الصفحة الرئيسية — الأوراد اليومية وقائمة المتون"
+    },
+    {
+      "src": "/manus-storage/ss2-explain_08bf3bf3.png",
+      "sizes": "1125x2062",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "شرح الفقرات بالذكاء الاصطناعي"
+    },
+    {
+      "src": "/manus-storage/ss3-memorize_4dafb92f.png",
+      "sizes": "1125x2073",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "وضع الحفظ — إخفاء النص وكشفه"
+    },
+    {
+      "src": "/manus-storage/ss4-quiz-mcq_f13d52c7.png",
+      "sizes": "1125x1979",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "اختبار الاختيار المتعدد"
+    },
+    {
+      "src": "/manus-storage/ss5-quiz-fill_d9b5d8e8.png",
+      "sizes": "1125x1896",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "اختبار إكمال الفراغ"
+    },
+    {
+      "src": "/manus-storage/ss6-level1_2e05d1b7.png",
+      "sizes": "1125x1721",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "المستوى الأول — أساسيات العقيدة والحديث"
+    },
+    {
+      "src": "/manus-storage/ss7-level2_49e0bea8.png",
+      "sizes": "1125x1362",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "المستوى الثاني — التجويد والفقه والتوحيد"
+    },
+    {
+      "src": "/manus-storage/ss8-level3_7c6bb5aa.png",
+      "sizes": "1125x1755",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "المستوى الثالث — مصطلح الحديث والنحو والعقيدة"
+    },
+    {
+      "src": "/manus-storage/ss9-level4_841d19f7.png",
+      "sizes": "1125x1711",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "المستوى الرابع — أصول الفقه والفرائض والعقيدة"
+    },
+    {
+      "src": "/manus-storage/ss10-level5_bdf35002.png",
+      "sizes": "1125x1392",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "المستوى الخامس — الفقه والحديث والنحو"
+    },
+    {
+      "src": "/manus-storage/wide-home_89da811d.png",
+      "sizes": "1280x736",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "الصفحة الرئيسية — الأوراد اليومية وقائمة المتون"
+    },
+    {
+      "src": "/manus-storage/wide-reader_1ec1ba8a.png",
+      "sizes": "1280x736",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "قارئ المتون — تصفح الفقرات والتنقل بينها"
+    },
+    {
+      "src": "/manus-storage/wide-quiz_2fd02563.png",
+      "sizes": "1280x736",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "اختبار الاختيار المتعدد"
+    },
+    {
+      "src": "/manus-storage/wide-explain_a329db93.png",
+      "sizes": "1280x736",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "شرح الفقرات بالذكاء الاصطناعي"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://munibin.com/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://munibin.com/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://munibin.com/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

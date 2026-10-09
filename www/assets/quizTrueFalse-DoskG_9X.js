@@ -1,0 +1,1 @@
+const a=["صحيح","خطأ"];function n(r){const e=String(r??"").trim().toLowerCase();return["صحيح","صح","true","نعم"].includes(e)?"صحيح":["خطأ","خطا","false","غلط","لا"].includes(e)?"خطأ":null}function s(r){if(r.type!=="truefalse")return r;const e=n(r.answer);return e?{...r,answer:e}:r}export{a as T,n as a,s as n};
