@@ -21,27 +21,20 @@ jobs:
         run: |
           npm install --prefix ios/.github --no-save --package-lock=false playwright
           ios/.github/node_modules/.bin/playwright install chromium webkit
-      - name: Overlay verified candidate frontend assets
+      - name: Overlay verified candidate sources
         env:
           GH_API_TOKEN: ${{ github.token }}
         run: |
           node <<'NODE'
-          const fs = require('node:fs'), crypto = require('node:crypto');
-          (async () => {
-            for (const item of [{"repo":"hassanhmostafa/munibin_ios","path":"ios/www/assets/index-cvbvIECy-native103.js.gz","sha":"adcc75b396996603278e445fc53f3e4274b6f56f"},{"repo":"hassanhmostafa/munibin_ios","path":"ios/www/assets/adhkar-card-transition-v412.js.gz","sha":"36a541243e88e2190e0c44f1f88d160610332992"},{"repo":"hassanhmostafa/munibin_ios","path":"ios/www/assets/adhkar-simple-sequence-v408.js.gz","sha":"c63d85ce461bc63efd966ec176c794b173af69ba"},{"repo":"hassanhmostafa/munibin_ios","path":"ios/www/assets/munibin-hisn-v409.js.gz","sha":"47ee815ff8510bea721898ee4d4359870a5b7a12"},{"repo":"hassanhmostafa/munibin_ios","path":"ios/www/assets/prayer-city-search-v417.js.gz","sha":"481fbce1f457890372f21773378df409b52d39c6"},{"repo":"hassanhmostafa/munibin_ios","path":"ios/www/sw.js","sha":"4d077cfe49921857ea613792dde122cfafae5997"},{"repo":"hassanhmostafa/munibin_android","path":"android/app/src/main/assets/www/assets/index-cvbvIECy-native98.js.gz","sha":"811d9aa4212c6ad29306beaab69b196b607347d0"},{"repo":"hassanhmostafa/munibin_android","path":"android/app/src/main/assets/www/assets/adhkar-card-transition-v412.js.gz","sha":"36a541243e88e2190e0c44f1f88d160610332992"},{"repo":"hassanhmostafa/munibin_android","path":"android/app/src/main/assets/www/assets/adhkar-simple-sequence-v408.js.gz","sha":"c63d85ce461bc63efd966ec176c794b173af69ba"},{"repo":"hassanhmostafa/munibin_android","path":"android/app/src/main/assets/www/assets/munibin-hisn-v408.js.gz","sha":"47ee815ff8510bea721898ee4d4359870a5b7a12"},{"repo":"hassanhmostafa/munibin_android","path":"android/app/src/main/assets/www/assets/prayer-city-search-v417.js.gz","sha":"481fbce1f457890372f21773378df409b52d39c6"},{"repo":"hassanhmostafa/munibin_android","path":"android/app/src/main/assets/www/sw.js","sha":"4d077cfe49921857ea613792dde122cfafae5997"}]) {
-              const response = await fetch('https://api.github.com/repos/' + item.repo + '/git/blobs/' + item.sha, { headers: { Accept: 'application/vnd.github.raw+json', Authorization: 'Bearer ' + process.env.GH_API_TOKEN, 'User-Agent': 'Munibin-browser-regression' } });
-              if (!response.ok) throw new Error('Blob HTTP ' + response.status + ' for ' + item.path);
-              let bytes = Buffer.from(await response.arrayBuffer());
-              if ((response.headers.get('content-type') || '').includes('application/json')) {
-                const value = JSON.parse(bytes.toString('utf8'));
-                if (value.encoding !== 'base64') throw new Error('Unexpected blob encoding');
-                bytes = Buffer.from(value.content, 'base64');
-              }
-              const digest = crypto.createHash('sha1').update(Buffer.from('blob ' + bytes.length + '\0')).update(bytes).digest('hex');
-              if (digest !== item.sha) throw new Error('Blob checksum mismatch: ' + item.path);
-              fs.writeFileSync(item.path, bytes); console.log('Verified candidate asset ' + item.path + ' ' + digest);
-            }
-          })().catch(error => { console.error(error); process.exitCode = 1; });
+          const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+          (async()=>{for(const item of [{"repo":"hassanhmostafa/munibin_ios","sha":"36a541243e88e2190e0c44f1f88d160610332992","path":"ios/www/assets/adhkar-card-transition-v412.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"c63d85ce461bc63efd966ec176c794b173af69ba","path":"ios/www/assets/adhkar-simple-sequence-v408.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"572c800225fbfc38c1d3532230423235abc4928f","path":"ios/www/assets/index-cvbvIECy-native103.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"5c74d19e355e7c6a2219baba110a89eff1cdbf84","path":"ios/www/assets/munibin-features-v185.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"47ee815ff8510bea721898ee4d4359870a5b7a12","path":"ios/www/assets/munibin-hisn-v409.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"b71ab5b4ac156f6911da654718d7b4c28f16e3b1","path":"ios/www/assets/native-quran-audio-durable-v442.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"5c3c71ed08ffb0263182e94f804ddfbdbedfcd7c","path":"ios/www/assets/native-quran-audio-v5.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"481fbce1f457890372f21773378df409b52d39c6","path":"ios/www/assets/prayer-city-search-v417.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"efd1e03e9afb09d46be2095fb717adc2be63c8bf","path":"ios/www/sw.js"},{"repo":"hassanhmostafa/munibin_android","sha":"36a541243e88e2190e0c44f1f88d160610332992","path":"android/app/src/main/assets/www/assets/adhkar-card-transition-v412.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"c63d85ce461bc63efd966ec176c794b173af69ba","path":"android/app/src/main/assets/www/assets/adhkar-simple-sequence-v408.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"9cc325fe3004d2f6cee6de77d30ca008840851bb","path":"android/app/src/main/assets/www/assets/index-cvbvIECy-native98.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"5c74d19e355e7c6a2219baba110a89eff1cdbf84","path":"android/app/src/main/assets/www/assets/munibin-features-v185.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"47ee815ff8510bea721898ee4d4359870a5b7a12","path":"android/app/src/main/assets/www/assets/munibin-hisn-v408.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"90c01070cc1a5ab4f29381921788f46d732efbc3","path":"android/app/src/main/assets/www/assets/munibin-v408.css.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"b71ab5b4ac156f6911da654718d7b4c28f16e3b1","path":"android/app/src/main/assets/www/assets/native-quran-audio-durable-v442.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"0b82d337ffdbe41816fc93b99374dafadc0d7fa7","path":"android/app/src/main/assets/www/assets/native-quran-audio-v5.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"481fbce1f457890372f21773378df409b52d39c6","path":"android/app/src/main/assets/www/assets/prayer-city-search-v417.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"efd1e03e9afb09d46be2095fb717adc2be63c8bf","path":"android/app/src/main/assets/www/sw.js"}]) {
+          const r=await fetch('https://api.github.com/repos/'+item.repo+'/git/blobs/'+item.sha,{headers:{Accept:'application/vnd.github.raw+json',Authorization:'Bearer '+process.env.GH_API_TOKEN,'User-Agent':'Munibin-candidate-check'}});
+          if(!r.ok)throw Error('Blob HTTP '+r.status+' '+item.path);
+          let b=Buffer.from(await r.arrayBuffer());
+          if((r.headers.get('content-type')||'').includes('application/json')){const j=JSON.parse(b.toString());if(j.encoding!=='base64')throw Error('Blob encoding');b=Buffer.from(j.content,'base64');}
+          if(crypto.createHash('sha1').update(Buffer.from('blob '+b.length+'\0')).update(b).digest('hex')!==item.sha)throw Error('Checksum '+item.path);
+          fs.mkdirSync(path.dirname(item.path),{recursive:true});fs.writeFileSync(item.path,b);console.log('Verified '+item.path);
+          }})().catch(e=>{console.error(e);process.exitCode=1});
           NODE
       - name: Exercise native frontend adhkar in both browser engines
         env:
@@ -53,8 +46,118 @@ jobs:
           QA_PLATFORMS: ios,android
           QA_ENGINES: chromium,webkit
         run: node ios/.github/adhkar-browser-regression-v442.mjs
-# Baseline retry with canonical fixtures and initialization guards.
-
-# Baseline focused capture-transfer regression check
-
-# Baseline iOS/WebKit tap and review check
+  ios_native_durability:
+    name: iOS durable downloads and complete native build
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out exact iOS source
+        run: |
+          git init ios-native
+          git -C ios-native remote add origin https://github.com/hassanhmostafa/munibin_ios.git
+          git -C ios-native fetch --depth=1 origin "$GITHUB_SHA"
+          git -C ios-native checkout --detach FETCH_HEAD
+      - name: Overlay verified candidate sources
+        env:
+          GH_API_TOKEN: ${{ github.token }}
+        run: |
+          node <<'NODE'
+          const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+          (async()=>{for(const item of [{"repo":"hassanhmostafa/munibin_ios","sha":"36a541243e88e2190e0c44f1f88d160610332992","path":"ios-native/www/assets/adhkar-card-transition-v412.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"c63d85ce461bc63efd966ec176c794b173af69ba","path":"ios-native/www/assets/adhkar-simple-sequence-v408.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"572c800225fbfc38c1d3532230423235abc4928f","path":"ios-native/www/assets/index-cvbvIECy-native103.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"5c74d19e355e7c6a2219baba110a89eff1cdbf84","path":"ios-native/www/assets/munibin-features-v185.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"47ee815ff8510bea721898ee4d4359870a5b7a12","path":"ios-native/www/assets/munibin-hisn-v409.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"b71ab5b4ac156f6911da654718d7b4c28f16e3b1","path":"ios-native/www/assets/native-quran-audio-durable-v442.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"5c3c71ed08ffb0263182e94f804ddfbdbedfcd7c","path":"ios-native/www/assets/native-quran-audio-v5.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"481fbce1f457890372f21773378df409b52d39c6","path":"ios-native/www/assets/prayer-city-search-v417.js.gz"},{"repo":"hassanhmostafa/munibin_ios","sha":"efd1e03e9afb09d46be2095fb717adc2be63c8bf","path":"ios-native/www/sw.js"},{"repo":"hassanhmostafa/munibin_ios","sha":"9b29a97eeb2a4ec264520dcdf6fbe243fc9b3f74","path":"ios-native/Munibin/ViewController.swift"},{"repo":"hassanhmostafa/munibin_ios","sha":"312208d4dca201c0c486c052198cd25baf621581","path":"ios-native/Munibin/WebView.swift"},{"repo":"hassanhmostafa/munibin_ios","sha":"2518df2d568987b21c7d8cd56309f79fe0e34ffc","path":"ios-native/Munibin/NativeAppServer.swift"},{"repo":"hassanhmostafa/munibin_ios","sha":"b485a72c9f5debc4da470fc7eaf5564b20f3f4ab","path":"ios-native/.qa/NativeAppServerStoreTests.swift"}]) {
+          const r=await fetch('https://api.github.com/repos/'+item.repo+'/git/blobs/'+item.sha,{headers:{Accept:'application/vnd.github.raw+json',Authorization:'Bearer '+process.env.GH_API_TOKEN,'User-Agent':'Munibin-candidate-check'}});
+          if(!r.ok)throw Error('Blob HTTP '+r.status+' '+item.path);
+          let b=Buffer.from(await r.arrayBuffer());
+          if((r.headers.get('content-type')||'').includes('application/json')){const j=JSON.parse(b.toString());if(j.encoding!=='base64')throw Error('Blob encoding');b=Buffer.from(j.content,'base64');}
+          if(crypto.createHash('sha1').update(Buffer.from('blob '+b.length+'\0')).update(b).digest('hex')!==item.sha)throw Error('Checksum '+item.path);
+          fs.mkdirSync(path.dirname(item.path),{recursive:true});fs.writeFileSync(item.path,b);console.log('Verified '+item.path);
+          }})().catch(e=>{console.error(e);process.exitCode=1});
+          NODE
+      - name: Exercise actual Swift storage and streamed upload parser
+        run: |
+          cat ios-native/Munibin/NativeAppServer.swift ios-native/.qa/NativeAppServerStoreTests.swift > main.swift
+          swiftc main.swift -o native-audio-tests -lz
+          ./native-audio-tests
+      - name: Build complete app and widget for arm64 iPhone
+        run: |
+          xcodebuild -project ios-native/Munibin.xcodeproj -scheme Munibin -configuration Debug -sdk iphoneos -destination 'generic/platform=iOS' -derivedDataPath native-build CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO build > ios-native-build.log 2>&1 || { tail -120 ios-native-build.log; exit 1; }
+          tail -12 ios-native-build.log
+  android_native_durability:
+    name: Android durable downloads and native compile
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    permissions:
+      contents: read
+    env:
+      ANDROID_PROJECT_DIR: android-project
+      ANDROID_HOST_QA_DIR: native-durable-qa
+      GRADLE_OPTS: -Dorg.gradle.daemon=false -Dorg.gradle.jvmargs=-Xmx3g
+    steps:
+      - name: Check out Android source
+        run: git clone --depth=1 https://github.com/hassanhmostafa/munibin_android.git android-project
+      - name: Overlay verified candidate sources
+        env:
+          GH_API_TOKEN: ${{ github.token }}
+        run: |
+          node <<'NODE'
+          const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+          (async()=>{for(const item of [{"repo":"hassanhmostafa/munibin_android","sha":"36a541243e88e2190e0c44f1f88d160610332992","path":"android-project/app/src/main/assets/www/assets/adhkar-card-transition-v412.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"c63d85ce461bc63efd966ec176c794b173af69ba","path":"android-project/app/src/main/assets/www/assets/adhkar-simple-sequence-v408.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"9cc325fe3004d2f6cee6de77d30ca008840851bb","path":"android-project/app/src/main/assets/www/assets/index-cvbvIECy-native98.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"5c74d19e355e7c6a2219baba110a89eff1cdbf84","path":"android-project/app/src/main/assets/www/assets/munibin-features-v185.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"47ee815ff8510bea721898ee4d4359870a5b7a12","path":"android-project/app/src/main/assets/www/assets/munibin-hisn-v408.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"90c01070cc1a5ab4f29381921788f46d732efbc3","path":"android-project/app/src/main/assets/www/assets/munibin-v408.css.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"b71ab5b4ac156f6911da654718d7b4c28f16e3b1","path":"android-project/app/src/main/assets/www/assets/native-quran-audio-durable-v442.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"0b82d337ffdbe41816fc93b99374dafadc0d7fa7","path":"android-project/app/src/main/assets/www/assets/native-quran-audio-v5.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"481fbce1f457890372f21773378df409b52d39c6","path":"android-project/app/src/main/assets/www/assets/prayer-city-search-v417.js.gz"},{"repo":"hassanhmostafa/munibin_android","sha":"efd1e03e9afb09d46be2095fb717adc2be63c8bf","path":"android-project/app/src/main/assets/www/sw.js"},{"repo":"hassanhmostafa/munibin_android","sha":"e99092b9b8bc2e34342b47038390709942db1377","path":"android-project/app/src/main/java/com/motoonai/twa/LauncherActivity.java"},{"repo":"hassanhmostafa/munibin_android","sha":"9989b802f9ba4b030a8d26c0f5e0682d7b57b67f","path":"android-project/app/src/main/java/com/motoonai/twa/NativeAppServer.java"},{"repo":"hassanhmostafa/munibin_android","sha":"10e2c64e1baa3b70d00169a7f2c64dcad59e9cc8","path":"android-project/app/src/main/java/com/motoonai/twa/DurableQuranAudioStore.java"},{"repo":"hassanhmostafa/munibin_android","sha":"4dddc02bc6f6f96be1e755b466466b335dc1754b","path":"native-durable-qa/test/com/motoonai/twa/DurableQuranAudioStoreTest.java"},{"repo":"hassanhmostafa/munibin_android","sha":"254578399609ac3524e73a989a880c6a662e078f","path":"native-durable-qa/test/com/motoonai/twa/NativeQuranAudioServerTest.java"},{"repo":"hassanhmostafa/munibin_android","sha":"98a31d3548e38c3e3f7b024943aaaff85a86ab72","path":"native-durable-qa/test-stubs/android/content/Context.java"},{"repo":"hassanhmostafa/munibin_android","sha":"a4c73904e9b073c92956c643ebd346897be57e9b","path":"native-durable-qa/test-stubs/android/content/SharedPreferences.java"},{"repo":"hassanhmostafa/munibin_android","sha":"55eb1693b55a0db5820b39e77950a3d68cecaed1","path":"native-durable-qa/test-stubs/android/content/res/AssetManager.java"},{"repo":"hassanhmostafa/munibin_android","sha":"1d61b8a9f59ddabedbd51de0793d8cd94968e53c","path":"native-durable-qa/test-stubs/android/net/Uri.java"},{"repo":"hassanhmostafa/munibin_android","sha":"6f52c1a82c543d81d0c8f67b53f8a0efd8ead366","path":"native-durable-qa/test-stubs/android/util/Log.java"},{"repo":"hassanhmostafa/munibin_android","sha":"1810e88eb1265eafc281c75e8b7e999a61ec776d","path":"native-durable-qa/test-stubs/android/webkit/MimeTypeMap.java"}]) {
+          const r=await fetch('https://api.github.com/repos/'+item.repo+'/git/blobs/'+item.sha,{headers:{Accept:'application/vnd.github.raw+json',Authorization:'Bearer '+process.env.GH_API_TOKEN,'User-Agent':'Munibin-candidate-check'}});
+          if(!r.ok)throw Error('Blob HTTP '+r.status+' '+item.path);
+          let b=Buffer.from(await r.arrayBuffer());
+          if((r.headers.get('content-type')||'').includes('application/json')){const j=JSON.parse(b.toString());if(j.encoding!=='base64')throw Error('Blob encoding');b=Buffer.from(j.content,'base64');}
+          if(crypto.createHash('sha1').update(Buffer.from('blob '+b.length+'\0')).update(b).digest('hex')!==item.sha)throw Error('Checksum '+item.path);
+          fs.mkdirSync(path.dirname(item.path),{recursive:true});fs.writeFileSync(item.path,b);console.log('Verified '+item.path);
+          }})().catch(e=>{console.error(e);process.exitCode=1});
+          NODE
+      - name: Select runner Java 17
+        shell: bash
+        run: |
+          set -euo pipefail
+          build_java="${JAVA_HOME_17_X64:-}"
+          if [[ -z "$build_java" || ! -x "$build_java/bin/javac" ]]; then
+            echo "Runner Java 17 is unavailable"
+            exit 1
+          fi
+          echo "JAVA_HOME=$build_java" >> "$GITHUB_ENV"
+          echo "$build_java/bin" >> "$GITHUB_PATH"
+          "$build_java/bin/java" -version
+      - name: Compile and exercise actual durable storage and HTTP server
+        shell: bash
+        run: |
+          set -euo pipefail
+          qa_root="$GITHUB_WORKSPACE/$ANDROID_HOST_QA_DIR"
+          android_root="$GITHUB_WORKSPACE/$ANDROID_PROJECT_DIR"
+          mkdir -p "$qa_root/dependencies" "$qa_root/classes"
+          json_jar="$qa_root/dependencies/json-20240303.jar"
+          curl --fail --location --retry 3 --output "$json_jar" https://repo.maven.apache.org/maven2/org/json/json/20240303/json-20240303.jar
+          mapfile -t qa_sources < <(find "$qa_root/test" "$qa_root/test-stubs" -name '*.java' -type f | sort)
+          javac -source 8 -target 8 -encoding UTF-8 -cp "$json_jar" -d "$qa_root/classes" \
+            "$android_root/app/src/main/java/com/motoonai/twa/NativeAppServer.java" \
+            "$android_root/app/src/main/java/com/motoonai/twa/DurableQuranAudioStore.java" \
+            "${qa_sources[@]}"
+          java -cp "$qa_root/classes:$json_jar" com.motoonai.twa.DurableQuranAudioStoreTest
+          java -cp "$qa_root/classes:$json_jar" com.motoonai.twa.NativeQuranAudioServerTest
+      - name: Install Android API 36 compile dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          android_sdk="${ANDROID_SDK_ROOT:-${ANDROID_HOME:-}}"
+          if [[ -z "$android_sdk" ]]; then
+            echo "Runner Android SDK is unavailable"
+            exit 1
+          fi
+          sdk_manager="$android_sdk/cmdline-tools/latest/bin/sdkmanager"
+          if [[ ! -x "$sdk_manager" ]]; then
+            sdk_manager="$(command -v sdkmanager)"
+          fi
+          echo "ANDROID_HOME=$android_sdk" >> "$GITHUB_ENV"
+          echo "ANDROID_SDK_ROOT=$android_sdk" >> "$GITHUB_ENV"
+          "$sdk_manager" --sdk_root="$android_sdk" "platforms;android-36" "build-tools;36.0.0"
+          printf 'sdk.dir=%s\n' "$android_sdk" > "$GITHUB_WORKSPACE/$ANDROID_PROJECT_DIR/local.properties"
+      - name: Compile the entire Android native application
+        shell: bash
+        working-directory: android-project
+        run: |
+          set -euo pipefail
+          chmod +x gradlew
+          ./gradlew --no-daemon --console=plain --stacktrace :app:compileDebugJavaWithJavac
