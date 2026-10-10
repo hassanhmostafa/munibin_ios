@@ -28,8 +28,10 @@ jobs:
           QA_OUT: ${{ github.workspace }}/adhkar-browser-results
           QA_ALLOW_FAILURE: '1'
           QA_PLATFORMS: ios
-          QA_ENGINES: chromium
+          QA_ENGINES: webkit
         run: node ios/.github/adhkar-browser-regression-v442.mjs
 # Baseline retry with canonical fixtures and initialization guards.
 
 # Baseline focused capture-transfer regression check
+
+# Baseline iOS/WebKit tap and review check
