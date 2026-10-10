@@ -1,0 +1,30 @@
+name: Adhkar browser check v442
+on:
+  push:
+    paths:
+      - '.github/workflows/adhkar-browser-check-v442.yml'
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: macos-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out exact iOS commit and current Android source
+        run: |
+          git init ios
+          git -C ios remote add origin https://github.com/hassanhmostafa/munibin_ios.git
+          git -C ios fetch --depth=1 origin "$GITHUB_SHA"
+          git -C ios checkout --detach FETCH_HEAD
+          git clone --depth=1 https://github.com/hassanhmostafa/munibin_android.git android
+      - name: Install isolated browser test dependencies
+        run: |
+          npm install --prefix ios/.github --no-save --package-lock=false playwright
+          ios/.github/node_modules/.bin/playwright install chromium webkit
+      - name: Exercise native frontend adhkar in both browser engines
+        env:
+          IOS_ROOT: ${{ github.workspace }}/ios/www
+          ANDROID_ROOT: ${{ github.workspace }}/android/app/src/main/assets/www
+          QA_OUT: ${{ github.workspace }}/adhkar-browser-results
+          QA_ALLOW_FAILURE: '1'
+        run: node ios/.github/adhkar-browser-regression-v442.mjs
