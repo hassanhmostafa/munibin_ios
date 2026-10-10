@@ -42,7 +42,10 @@ function fixtureData(www) {
 const mime = { '.html': 'text/html', '.js': 'text/javascript', '.mjs': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.woff2': 'font/woff2', '.woff': 'font/woff', '.ttf': 'font/ttf', '.png': 'image/png', '.svg': 'image/svg+xml', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.mp3': 'audio/mpeg' };
 async function serve(www) {
   const server = http.createServer((req, res) => {
-    const pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
+    let pathname = new URL(req.url, 'http://localhost').pathname;
+    try { pathname = decodeURIComponent(pathname); } catch {
+      res.writeHead(404); res.end('Unexpanded build-time URL'); return;
+    }
     let file = path.resolve(www, '.' + pathname);
     if (!file.startsWith(www + path.sep) && file !== www) { res.writeHead(403); res.end(); return; }
     if (pathname === '/' || !path.extname(pathname)) file = path.join(www, 'index.html');
