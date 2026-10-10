@@ -133,7 +133,7 @@ async function snapshot(page) {
 function signature(s) { return s.card?.complete ? '__complete__' : `${s.card?.label || ''}|${s.card?.text || ''}`; }
 async function settled(page) { await page.waitForTimeout(1200); }
 async function openAdvanced(page, chapter) {
-  await page.locator('.munibin-hisn-search input').fill(chapter.id === 3 ? 'قبل الوضوء' : 'الاستيقاظ');
+  await page.locator('.munibin-hisn-search input').fill(chapter.title);
   const chapterButton = page.locator('.munibin-hisn-chapter').filter({ hasText: chapter.title }).first();
   await chapterButton.waitFor({ timeout: 10000 });
   await chapterButton.click();
