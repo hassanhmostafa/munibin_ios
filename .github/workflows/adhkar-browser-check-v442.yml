@@ -28,3 +28,4 @@ jobs:
           QA_OUT: ${{ github.workspace }}/adhkar-browser-results
           QA_ALLOW_FAILURE: '1'
         run: node ios/.github/adhkar-browser-regression-v442.mjs
+# Baseline retry with canonical fixtures and initialization guards.
