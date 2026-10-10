@@ -222,6 +222,7 @@ async function runCase(browser, engine, platform, base, mode, caseName, data) {
     if (mode === 'advanced') await openAdvanced(page, data.chapters.find(c => c.id === (caseName === 'review' ? 3 : 1)));
     else { await page.locator('.munibin-hisn-reader-card').waitFor({ timeout: 12000 }); await settled(page); }
     result.before = await snapshot(page);
+    result.topControls = result.before.top;
     check('card has swipe dataset and native pointer listeners', !!result.before.card?.data.adhkarSwipe && result.before.card?.listeners?.pointerdown > 0, result.before.card?.listeners);
     check('card touch-action permits vertical scroll, not horizontal browser pan', /pan-y|none/.test(result.before.card?.touchAction || ''), result.before.card?.touchAction);
     if (caseName === 'swipe') {
