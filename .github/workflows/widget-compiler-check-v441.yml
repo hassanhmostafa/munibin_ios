@@ -1,0 +1,30 @@
+name: Widget compiler check v441
+
+on:
+  push:
+    paths:
+      - '.github/workflows/widget-compiler-check-v441.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  widget:
+    runs-on: macos-latest
+    timeout-minutes: 12
+    steps:
+      - name: Check out exact source commit
+        run: |
+          git init source
+          git -C source remote add origin https://github.com/hassanhmostafa/munibin_ios.git
+          git -C source fetch --depth=1 origin "$GITHUB_SHA"
+          git -C source checkout --detach FETCH_HEAD
+      - name: Show Apple compiler version
+        run: |
+          xcodebuild -version
+          xcrun swiftc --version
+      - name: Build widget extension for arm64 iPhone
+        working-directory: source
+        run: |
+          set -o pipefail
+          xcodebuild -project Munibin.xcodeproj -target MunibinWidgetExtension -configuration Debug -sdk iphoneos -arch arm64 CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO build
