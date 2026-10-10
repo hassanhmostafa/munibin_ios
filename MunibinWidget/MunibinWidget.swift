@@ -303,6 +303,11 @@ private enum PrayerWidgetSupport {
         let iqama: Bool
     }
 
+    private struct ScheduledEvent {
+        let day: PrayerWidgetSchedule.Day
+        let event: PrayerWidgetSchedule.Event
+    }
+
     // A full dated schedule is shared even when Live Activity is switched off.
     // Select the table from the target's original prayer day, not the wall date
     // or iqama end date; an Isha iqama can continue across midnight.
@@ -314,22 +319,35 @@ private enum PrayerWidgetSupport {
         let startOfToday = selectedCalendar.startOfDay(for: now)
         let firstDay = selectedCalendar.date(byAdding: .day, value: -1, to: startOfToday) ?? startOfToday
         let lastDay = selectedCalendar.date(byAdding: .day, value: 2, to: startOfToday) ?? startOfToday
-        let events = schedule.days.filter { day in
-            day.events.count == keys.count && Set(day.events.map { normalizedKey($0.key) }) == keys &&
-                day.events.allSatisfy { $0.at.isFinite && $0.at > 0 }
-        }.flatMap { day in day.events.map { (day, $0) } }
-            .filter { $0.1.at >= firstDay.timeIntervalSince1970 * 1000 && $0.1.at < lastDay.timeIntervalSince1970 * 1000 }
-            .sorted { $0.1.at < $1.1.at }
+        let firstDayMilliseconds: Double = firstDay.timeIntervalSince1970 * 1000
+        let lastDayMilliseconds: Double = lastDay.timeIntervalSince1970 * 1000
+        // Keep each collection operation separately typed. A chained filter /
+        // flatMap / tuple sort exceeds Swift's type-checking budget here.
+        var events: [ScheduledEvent] = []
+        for day in schedule.days {
+            guard day.events.count == keys.count else { continue }
+            let eventKeys: Set<String> = Set(day.events.map { normalizedKey($0.key) })
+            guard eventKeys == keys else { continue }
+            guard day.events.allSatisfy({ $0.at.isFinite && $0.at > 0 }) else { continue }
+
+            for event in day.events {
+                guard event.at >= firstDayMilliseconds,
+                      event.at < lastDayMilliseconds else { continue }
+                events.append(ScheduledEvent(day: day, event: event))
+            }
+        }
+        events.sort { $0.event.at < $1.event.at }
         let milliseconds = now.timeIntervalSince1970 * 1000
-        if let active = events.first(where: { _, event in
+        if let active = events.first(where: { candidate in
+            let event = candidate.event
             guard normalizedKey(event.key) != "sunrise", let end = event.iqamaAt,
                   end.isFinite, end > event.at else { return false }
             return event.at <= milliseconds && milliseconds < end
         }) {
-            return ScheduledTarget(day: active.0, event: active.1, iqama: true)
+            return ScheduledTarget(day: active.day, event: active.event, iqama: true)
         }
-        guard let next = events.first(where: { $0.1.at > milliseconds }) else { return nil }
-        return ScheduledTarget(day: next.0, event: next.1, iqama: false)
+        guard let next = events.first(where: { $0.event.at > milliseconds }) else { return nil }
+        return ScheduledTarget(day: next.day, event: next.event, iqama: false)
     }
 
     static func displaySnapshot(_ loaded: PrayerWidgetSnapshot, now: Date) -> PrayerWidgetSnapshot {
