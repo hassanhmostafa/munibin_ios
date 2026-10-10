@@ -270,6 +270,54 @@ async function runCase(browser, engine, platform, base, mode, caseName, data) {
   return result;
 }
 
+async function runCityClockGeometry(browser, engine, platform, base, www) {
+  const result = { name: `${platform}-${engine}-city-clock-rtl`, platform, engine, checks: [] };
+  const context = await browser.newContext({ viewport: { width: 393, height: 852 }, isMobile: true, hasTouch: true });
+  const page = await context.newPage();
+  await safeNetwork(context, base, []);
+  try {
+    const source = readAsset(www, 'prayer-city-search-v417.js');
+    result.checks.push({ label: 'city preview uses isolated clock renderer', passed: source.includes("h(PrayerClockValue, { value: timings ? formatPrayerClock(timings[key], timeFormat) : '—:—' })") });
+    await page.goto(base + '/adhkar', { waitUntil: 'domcontentloaded' });
+    await page.locator('.munibin-adhkar-top-controls').waitFor({ timeout: 25000 });
+    for (const width of [320, 411]) {
+      await page.setViewportSize({ width, height: 900 });
+      const measurements = await page.evaluate(async () => {
+        const display = await import('/assets/prayer-display-v423.js');
+        const h = (type, props, ...children) => {
+          if (typeof type === 'function') return type({ ...(props || {}), children });
+          const node = document.createElement(type);
+          for (const [key, value] of Object.entries(props || {})) if (key !== 'key') node.setAttribute(key === 'className' ? 'class' : key, value);
+          node.append(...children.flat().filter(value => value != null)); return node;
+        };
+        const { PrayerClockValue } = display.createPrayerDisplayComponents({ createElement: h });
+        const panel = document.createElement('div'); panel.dir = 'rtl';
+        panel.style.cssText = 'position:fixed;inset:0;z-index:999999;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:3px;overflow:auto;background:white;color:black;font:12px sans-serif';
+        document.body.append(panel);
+        const fixtures = [];
+        for (let hour = 0; hour < 24; hour++) for (const format of ['12h', '24h']) {
+          const canonical = `${String(hour).padStart(2, '0')}:30`;
+          const time = h('time', { dir: 'rtl', dateTime: canonical }, h(PrayerClockValue, { value: display.formatPrayerClock(canonical, format) }));
+          panel.append(time); fixtures.push({ time, format });
+        }
+        const rows = fixtures.map(({ time, format }) => {
+          const group = time.querySelector('.munibin-prayer-clock-value');
+          const clock = group.querySelector('bdi').getBoundingClientRect();
+          if (format === '24h') return { format, valid: group.childNodes.length === 1 };
+          const node = group.lastChild, range = document.createRange();
+          range.setStart(node, 1); range.setEnd(node, node.textContent.length);
+          const marker = range.getBoundingClientRect();
+          return { format, valid: marker.width > 0 && marker.right <= clock.left + .5, markerRight: marker.right, clockLeft: clock.left };
+        });
+        panel.remove(); return rows;
+      });
+      result.checks.push({ label: `ص/م left of clock at width ${width}; 24h unchanged`, passed: measurements.every(row => row.valid), cases: measurements.length, failures: measurements.filter(row => !row.valid) });
+    }
+  } catch (error) { result.failure = String(error); }
+  result.passed = !result.failure && result.checks.every(row => row.passed);
+  await context.close(); console.log(JSON.stringify(result)); return result;
+}
+
 for (const platform of requestedPlatforms) {
   const www = wwwFor(platformRoots[platform], platform), data = fixtureData(www), { server, base } = await serve(www);
   try {
@@ -278,6 +326,7 @@ for (const platform of requestedPlatforms) {
       try {
         browser = await playwright[engine].launch({ headless: true });
         for (const mode of ['simple', 'advanced']) for (const caseName of ['swipe', 'auto', 'review']) results.push(await runCase(browser, engine, platform, base, mode, caseName, data));
+        if (process.env.QA_CLOCK_GEOMETRY === '1') results.push(await runCityClockGeometry(browser, engine, platform, base, www));
       } catch (error) {
         const result = { platform, engine, passed: false, startupFailure: String(error) }; results.push(result); console.log(JSON.stringify(result));
       } finally { await browser?.close(); }
